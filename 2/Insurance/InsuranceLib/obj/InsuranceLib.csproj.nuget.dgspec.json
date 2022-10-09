@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\5сем\\Курсовая\\2\\Insurance\\InsuranceLib\\InsuranceLib.csproj": {}
+    "C:\\Users\\olas\\Source\\Repos\\DataBaseLabs\\2\\Insurance\\InsuranceLib\\InsuranceLib.csproj": {}
   },
   "projects": {
-    "D:\\5сем\\Курсовая\\2\\Insurance\\InsuranceLib\\InsuranceLib.csproj": {
+    "C:\\Users\\olas\\Source\\Repos\\DataBaseLabs\\2\\Insurance\\InsuranceLib\\InsuranceLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\5сем\\Курсовая\\2\\Insurance\\InsuranceLib\\InsuranceLib.csproj",
+        "projectUniqueName": "C:\\Users\\olas\\Source\\Repos\\DataBaseLabs\\2\\Insurance\\InsuranceLib\\InsuranceLib.csproj",
         "projectName": "InsuranceLib",
-        "projectPath": "D:\\5сем\\Курсовая\\2\\Insurance\\InsuranceLib\\InsuranceLib.csproj",
-        "packagesPath": "C:\\Users\\Ksesha\\.nuget\\packages\\",
-        "outputPath": "D:\\5сем\\Курсовая\\2\\Insurance\\InsuranceLib\\obj\\",
+        "projectPath": "C:\\Users\\olas\\Source\\Repos\\DataBaseLabs\\2\\Insurance\\InsuranceLib\\InsuranceLib.csproj",
+        "packagesPath": "C:\\Users\\olas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\olas\\Source\\Repos\\DataBaseLabs\\2\\Insurance\\InsuranceLib\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Ksesha\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\olas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

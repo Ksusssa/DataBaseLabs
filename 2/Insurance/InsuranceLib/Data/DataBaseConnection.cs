@@ -2,7 +2,8 @@
 using System.Configuration;
 using System.Data.Common;
 
-namespace InsuranceLib.DataBaseContollers
+namespace InsuranceLib.Data
+
 {
     public class DataBaseConnection : IDisposable
     {

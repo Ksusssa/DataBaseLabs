@@ -1,5 +1,5 @@
 ﻿using ConsoleTables;
-using InsuranceLib.DataBaseContollers;
+using InsuranceLib.Data;
 using InsuranceLib.Models;
 
 void PrintTable<T>(IQueryable<T> dbSet) where T : class

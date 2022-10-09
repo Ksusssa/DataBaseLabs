@@ -4,7 +4,7 @@ using InsuranceLib.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace InsuranceLib.DataBaseContollers
+namespace InsuranceLib.Data
 {
     public partial class InsuranceContext : DbContext
     {
