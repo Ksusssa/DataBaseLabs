@@ -29,8 +29,13 @@ using (InsuranceContext db = new InsuranceContext())
     var polisis = db.Policies;
     Console.WriteLine("3.NotFinish Policies (Press Enter)");
     Console.ReadLine();
-    Console.WriteLine(polisis.Count(x => x.IsFinish == 0));
-
+    //var rez = polisis.GroupBy(x => x.IsFinish).Select(g => g.Count());
+    //for
+    var groups = polisis.GroupBy(x => x.IsFinish).Select(e => new { Count = e.Count(), Key = e.Key });
+    foreach (var g in groups)
+    {
+        Console.WriteLine((g.Key) + ": " + (g.Count));
+    }
     Console.WriteLine("4. (Press Enter)");
     Console.ReadLine();
     PrintTable( db.Policies.Join(db.TypesOfPolicies, x=> x.TypesOfPolicieId,

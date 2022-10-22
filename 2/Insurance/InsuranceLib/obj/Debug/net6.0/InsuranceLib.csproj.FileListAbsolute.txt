@@ -26,3 +26,17 @@ C:\Users\olas\Source\Repos\DataBaseLabs\2\Insurance\InsuranceLib\obj\Debug\net6.
 C:\Users\olas\Source\Repos\DataBaseLabs\2\Insurance\InsuranceLib\obj\Debug\net6.0\InsuranceLib.pdb
 C:\Users\olas\Source\Repos\DataBaseLabs\2\Insurance\InsuranceLib\obj\Debug\net6.0\InsuranceLib.genruntimeconfig.cache
 C:\Users\olas\Source\Repos\DataBaseLabs\2\Insurance\InsuranceLib\obj\Debug\net6.0\ref\InsuranceLib.dll
+D:\5сем\Курсовая\DataBaseLabs\2\Insurance\InsuranceLib\bin\Debug\net6.0\InsuranceLib.deps.json
+D:\5сем\Курсовая\DataBaseLabs\2\Insurance\InsuranceLib\bin\Debug\net6.0\InsuranceLib.runtimeconfig.json
+D:\5сем\Курсовая\DataBaseLabs\2\Insurance\InsuranceLib\bin\Debug\net6.0\InsuranceLib.dll
+D:\5сем\Курсовая\DataBaseLabs\2\Insurance\InsuranceLib\bin\Debug\net6.0\InsuranceLib.pdb
+D:\5сем\Курсовая\DataBaseLabs\2\Insurance\InsuranceLib\obj\Debug\net6.0\InsuranceLib.csproj.AssemblyReference.cache
+D:\5сем\Курсовая\DataBaseLabs\2\Insurance\InsuranceLib\obj\Debug\net6.0\InsuranceLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\5сем\Курсовая\DataBaseLabs\2\Insurance\InsuranceLib\obj\Debug\net6.0\InsuranceLib.AssemblyInfoInputs.cache
+D:\5сем\Курсовая\DataBaseLabs\2\Insurance\InsuranceLib\obj\Debug\net6.0\InsuranceLib.AssemblyInfo.cs
+D:\5сем\Курсовая\DataBaseLabs\2\Insurance\InsuranceLib\obj\Debug\net6.0\InsuranceLib.csproj.CoreCompileInputs.cache
+D:\5сем\Курсовая\DataBaseLabs\2\Insurance\InsuranceLib\obj\Debug\net6.0\InsuranceLib.dll
+D:\5сем\Курсовая\DataBaseLabs\2\Insurance\InsuranceLib\obj\Debug\net6.0\refint\InsuranceLib.dll
+D:\5сем\Курсовая\DataBaseLabs\2\Insurance\InsuranceLib\obj\Debug\net6.0\InsuranceLib.pdb
+D:\5сем\Курсовая\DataBaseLabs\2\Insurance\InsuranceLib\obj\Debug\net6.0\InsuranceLib.genruntimeconfig.cache
+D:\5сем\Курсовая\DataBaseLabs\2\Insurance\InsuranceLib\obj\Debug\net6.0\ref\InsuranceLib.dll
