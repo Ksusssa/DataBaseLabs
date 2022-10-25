@@ -1,0 +1,14 @@
+D:\5сем\Курсовая\DataBaseLabs\2\3\Web\ClassLibrary\bin\Debug\net6.0\ClassLibrary.deps.json
+D:\5сем\Курсовая\DataBaseLabs\2\3\Web\ClassLibrary\bin\Debug\net6.0\ClassLibrary.runtimeconfig.json
+D:\5сем\Курсовая\DataBaseLabs\2\3\Web\ClassLibrary\bin\Debug\net6.0\ClassLibrary.dll
+D:\5сем\Курсовая\DataBaseLabs\2\3\Web\ClassLibrary\bin\Debug\net6.0\ClassLibrary.pdb
+D:\5сем\Курсовая\DataBaseLabs\2\3\Web\ClassLibrary\obj\Debug\net6.0\ClassLibrary.csproj.AssemblyReference.cache
+D:\5сем\Курсовая\DataBaseLabs\2\3\Web\ClassLibrary\obj\Debug\net6.0\ClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\5сем\Курсовая\DataBaseLabs\2\3\Web\ClassLibrary\obj\Debug\net6.0\ClassLibrary.AssemblyInfoInputs.cache
+D:\5сем\Курсовая\DataBaseLabs\2\3\Web\ClassLibrary\obj\Debug\net6.0\ClassLibrary.AssemblyInfo.cs
+D:\5сем\Курсовая\DataBaseLabs\2\3\Web\ClassLibrary\obj\Debug\net6.0\ClassLibrary.csproj.CoreCompileInputs.cache
+D:\5сем\Курсовая\DataBaseLabs\2\3\Web\ClassLibrary\obj\Debug\net6.0\ClassLibrary.dll
+D:\5сем\Курсовая\DataBaseLabs\2\3\Web\ClassLibrary\obj\Debug\net6.0\refint\ClassLibrary.dll
+D:\5сем\Курсовая\DataBaseLabs\2\3\Web\ClassLibrary\obj\Debug\net6.0\ClassLibrary.pdb
+D:\5сем\Курсовая\DataBaseLabs\2\3\Web\ClassLibrary\obj\Debug\net6.0\ClassLibrary.genruntimeconfig.cache
+D:\5сем\Курсовая\DataBaseLabs\2\3\Web\ClassLibrary\obj\Debug\net6.0\ref\ClassLibrary.dll
