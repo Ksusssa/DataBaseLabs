@@ -1,0 +1,283 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\d.sysoy\\Downloads\\Telegram Desktop\\InsuranceCompany-main\\InsuranceCompany-main\\InsuranceCompany\\InsuranceCompany.Web\\InsuranceCompany.Web.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\d.sysoy\\Downloads\\Telegram Desktop\\InsuranceCompany-main\\InsuranceCompany-main\\InsuranceCompany\\InsuranceCompany.Common\\InsuranceCompany.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\d.sysoy\\Downloads\\Telegram Desktop\\InsuranceCompany-main\\InsuranceCompany-main\\InsuranceCompany\\InsuranceCompany.Common\\InsuranceCompany.Common.csproj",
+        "projectName": "InsuranceCompany.Common",
+        "projectPath": "C:\\Users\\d.sysoy\\Downloads\\Telegram Desktop\\InsuranceCompany-main\\InsuranceCompany-main\\InsuranceCompany\\InsuranceCompany.Common\\InsuranceCompany.Common.csproj",
+        "packagesPath": "C:\\Users\\d.sysoy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\d.sysoy\\Downloads\\Telegram Desktop\\InsuranceCompany-main\\InsuranceCompany-main\\InsuranceCompany\\InsuranceCompany.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\d.sysoy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\d.sysoy\\Downloads\\Telegram Desktop\\InsuranceCompany-main\\InsuranceCompany-main\\InsuranceCompany\\InsuranceCompany.Data.Contracts\\InsuranceCompany.Data.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\d.sysoy\\Downloads\\Telegram Desktop\\InsuranceCompany-main\\InsuranceCompany-main\\InsuranceCompany\\InsuranceCompany.Data.Contracts\\InsuranceCompany.Data.Contracts.csproj",
+        "projectName": "InsuranceCompany.Data.Contracts",
+        "projectPath": "C:\\Users\\d.sysoy\\Downloads\\Telegram Desktop\\InsuranceCompany-main\\InsuranceCompany-main\\InsuranceCompany\\InsuranceCompany.Data.Contracts\\InsuranceCompany.Data.Contracts.csproj",
+        "packagesPath": "C:\\Users\\d.sysoy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\d.sysoy\\Downloads\\Telegram Desktop\\InsuranceCompany-main\\InsuranceCompany-main\\InsuranceCompany\\InsuranceCompany.Data.Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\d.sysoy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\d.sysoy\\Downloads\\Telegram Desktop\\InsuranceCompany-main\\InsuranceCompany-main\\InsuranceCompany\\InsuranceCompany.Common\\InsuranceCompany.Common.csproj": {
+                "projectPath": "C:\\Users\\d.sysoy\\Downloads\\Telegram Desktop\\InsuranceCompany-main\\InsuranceCompany-main\\InsuranceCompany\\InsuranceCompany.Common\\InsuranceCompany.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\d.sysoy\\Downloads\\Telegram Desktop\\InsuranceCompany-main\\InsuranceCompany-main\\InsuranceCompany\\InsuranceCompany.Data.Internal\\InsuranceCompany.Data.Internal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\d.sysoy\\Downloads\\Telegram Desktop\\InsuranceCompany-main\\InsuranceCompany-main\\InsuranceCompany\\InsuranceCompany.Data.Internal\\InsuranceCompany.Data.Internal.csproj",
+        "projectName": "InsuranceCompany.Data.Internal",
+        "projectPath": "C:\\Users\\d.sysoy\\Downloads\\Telegram Desktop\\InsuranceCompany-main\\InsuranceCompany-main\\InsuranceCompany\\InsuranceCompany.Data.Internal\\InsuranceCompany.Data.Internal.csproj",
+        "packagesPath": "C:\\Users\\d.sysoy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\d.sysoy\\Downloads\\Telegram Desktop\\InsuranceCompany-main\\InsuranceCompany-main\\InsuranceCompany\\InsuranceCompany.Data.Internal\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\d.sysoy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\d.sysoy\\Downloads\\Telegram Desktop\\InsuranceCompany-main\\InsuranceCompany-main\\InsuranceCompany\\InsuranceCompany.Data.Contracts\\InsuranceCompany.Data.Contracts.csproj": {
+                "projectPath": "C:\\Users\\d.sysoy\\Downloads\\Telegram Desktop\\InsuranceCompany-main\\InsuranceCompany-main\\InsuranceCompany\\InsuranceCompany.Data.Contracts\\InsuranceCompany.Data.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\d.sysoy\\Downloads\\Telegram Desktop\\InsuranceCompany-main\\InsuranceCompany-main\\InsuranceCompany\\InsuranceCompany.Web\\InsuranceCompany.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\d.sysoy\\Downloads\\Telegram Desktop\\InsuranceCompany-main\\InsuranceCompany-main\\InsuranceCompany\\InsuranceCompany.Web\\InsuranceCompany.Web.csproj",
+        "projectName": "InsuranceCompany.Web",
+        "projectPath": "C:\\Users\\d.sysoy\\Downloads\\Telegram Desktop\\InsuranceCompany-main\\InsuranceCompany-main\\InsuranceCompany\\InsuranceCompany.Web\\InsuranceCompany.Web.csproj",
+        "packagesPath": "C:\\Users\\d.sysoy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\d.sysoy\\Downloads\\Telegram Desktop\\InsuranceCompany-main\\InsuranceCompany-main\\InsuranceCompany\\InsuranceCompany.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\d.sysoy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\d.sysoy\\Downloads\\Telegram Desktop\\InsuranceCompany-main\\InsuranceCompany-main\\InsuranceCompany\\InsuranceCompany.Data.Internal\\InsuranceCompany.Data.Internal.csproj": {
+                "projectPath": "C:\\Users\\d.sysoy\\Downloads\\Telegram Desktop\\InsuranceCompany-main\\InsuranceCompany-main\\InsuranceCompany\\InsuranceCompany.Data.Internal\\InsuranceCompany.Data.Internal.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[6.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

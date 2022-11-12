@@ -1,0 +1,97 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "InsuranceCompany.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/InsuranceCompany.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InsuranceCompany.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "InsuranceCompany.Common/1.0.0": {
+      "type": "project",
+      "path": "../InsuranceCompany.Common/InsuranceCompany.Common.csproj",
+      "msbuildProject": "../InsuranceCompany.Common/InsuranceCompany.Common.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "InsuranceCompany.Common >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Ksesha\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany\\InsuranceCompany.Data.Contracts\\InsuranceCompany.Data.Contracts.csproj",
+      "projectName": "InsuranceCompany.Data.Contracts",
+      "projectPath": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany\\InsuranceCompany.Data.Contracts\\InsuranceCompany.Data.Contracts.csproj",
+      "packagesPath": "C:\\Users\\Ksesha\\.nuget\\packages\\",
+      "outputPath": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany\\InsuranceCompany.Data.Contracts\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Ksesha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany\\InsuranceCompany.Common\\InsuranceCompany.Common.csproj": {
+              "projectPath": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany\\InsuranceCompany.Common\\InsuranceCompany.Common.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
