@@ -1,0 +1,80 @@
+﻿@model IEnumerable<InsuranceCompany.WebApp.Models.PolicyType.PolicyTypeVM>
+
+@{
+    ViewData["Title"] = "Policy Types";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="col-lg-12">
+    <div class="card z-depth-3">
+        <div class="card-body">
+            <div class="tab-content p-3">
+                <h2>Risk table: </h2>
+                <div class="mt-4 mb-4">
+                    <a href="@Url.Action("Create", "PolicyTypes")"><h5>Create Policy Type</h5></a>
+                </div>
+                <div class="row justify-content-center">
+                    <table id="policyTypeTable" class="table">
+                        <thead>
+                            <tr>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Name)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Description)
+                                </th>
+                                <th>
+                                    @Html.DisplayNameFor(model => model.Condition)
+                                </th>
+                                <th>
+                                    Risk's Names
+                                </th>
+                                <th>
+                                    Edit Type
+                                </th>
+                                <th>
+                                    Delete Type
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Name)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Description)
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(modelItem => item.Condition)
+                                    </td>
+                                    <td>
+                                        <ul>
+                                        @foreach (var risk in item.Risks)
+                                        {
+                                            <li>@risk.Name</li>
+                                        }
+                                        </ul>
+                                    </td>
+                                    <td>
+                                        <a href="@Url.Action("Edit", "PolicyTypes", new { id = item.Id })">Edit</a>
+                                    </td>
+                                    <td>
+                                        @{
+                                            using (Html.BeginForm("Delete", "PolicyTypes", new { id = item.Id }))
+                                            {
+                                                <button type="submit" class="btn btn-outline-danger">Delete</button>
+                                            }
+                                        }
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

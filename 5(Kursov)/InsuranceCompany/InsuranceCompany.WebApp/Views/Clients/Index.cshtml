@@ -1,0 +1,54 @@
+﻿@model IEnumerable<InsuranceCompany.Data.Internal.Entities.Client>
+
+@{
+    ViewData["Title"] = "Clients";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Clients</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.FirstName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.LastName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.BornDate)
+                </th>
+                <th>
+                    Policies
+                </th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model) 
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.FirstName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LastName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BornDate)
+            </td>
+            <td>
+                @foreach(var policy in item.Policies)
+                {
+                   <ul>
+                   @if(@policy.PolicyType is not null)
+                   {
+                       <li>@policy.PolicyType.Name</li>
+                   }
+                   </ul>
+                }
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
