@@ -1,6 +1,63 @@
-﻿@{
+﻿@model IEnumerable<InsuranceCompany.Data.Internal.Entities.Policy>
+
+@{
     ViewData["Title"] = "Privacy Policy";
 }
-<h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+<div class="container">
+    <div class="row">
+        @if (User.IsInRole("Client"))
+        {
+            <h4>Your policies: </h4>
+            <a href="@Url.Action("SelectPolicies", "Home")"><h5>Select Another Policy</h5></a>
+            @if (Model.Any())
+            {
+                @foreach (var policy in Model)
+                {
+                    <div class="card">
+                        <h5 class="card-header">@policy.PolicyType.Name</h5>
+                        <div class="card-body">
+                            <h5 class="card-title">Employee: @policy.Employee.User.UserName</h5>
+                            <p class="card-text">@policy.PolicyType.Description</p>
+                            <p class="card-text">@policy.PolicyType.Condition</p>
+                            <p class="card-text">Price: @policy.Price</p>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <div class="col-sm-6">
+                    <h4>You dont have any policices.</h4>
+                    <button type="button" class="btn btn-primary m-lg-4" onclick="location.href='@Url.Action("SelectPolicies", "Home")'">
+                        Select Policy
+                    </button>
+                </div>
+            }
+        }
+        else
+        @if (User.IsInRole("Employee"))
+        {
+            <h4>Policies, which you operate: </h4>
+            @foreach (var policy in Model)
+            {
+                <div class="card">
+                    <h5 class="card-header">@policy.PolicyType.Name</h5>
+                    <div class="card-body">
+                        @if (policy.Client == null)
+                        {
+                            <h5 class="card-title">Client not definded.</h5>
+                        }
+                        else
+                        {
+                            <h5 class="card-title">Client: @policy.Client.User.UserName</h5>
+                        }
+                        <p class="card-text">@policy.PolicyType.Description</p>
+                        <p class="card-text">@policy.PolicyType.Condition</p>
+                        <p class="card-text">Price: @policy.Price</p>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+</div>

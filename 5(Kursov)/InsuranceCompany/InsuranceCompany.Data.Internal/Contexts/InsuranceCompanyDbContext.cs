@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace InsuranceCompany.Data.Internal.Contexts
 {
-    public class InsuranceCompanyDbContext : IdentityDbContext
+    public class InsuranceCompanyDbContext : IdentityDbContext<User>
     {
         public InsuranceCompanyDbContext(DbContextOptions<InsuranceCompanyDbContext> options)
             : base(options)

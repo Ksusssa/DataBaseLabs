@@ -30,3 +30,18 @@ C:\Users\d.sysoy\Downloads\Telegram Desktop\InsuranceCompany-main\InsuranceCompa
 C:\Users\d.sysoy\Downloads\Telegram Desktop\InsuranceCompany-main\InsuranceCompany-main\InsuranceCompany\InsuranceCompany.Data.Internal\obj\Debug\net6.0\InsuranceCompany.Data.Internal.dll
 C:\Users\d.sysoy\Downloads\Telegram Desktop\InsuranceCompany-main\InsuranceCompany-main\InsuranceCompany\InsuranceCompany.Data.Internal\obj\Debug\net6.0\ref\InsuranceCompany.Data.Internal.dll
 C:\Users\d.sysoy\Downloads\Telegram Desktop\InsuranceCompany-main\InsuranceCompany-main\InsuranceCompany\InsuranceCompany.Data.Internal\obj\Debug\net6.0\InsuranceCompany.Data.Internal.pdb
+D:\5сем\Курсовая\InsuranceCompany\InsuranceCompany.Data.Internal\bin\Debug\net6.0\InsuranceCompany.Data.Internal.deps.json
+D:\5сем\Курсовая\InsuranceCompany\InsuranceCompany.Data.Internal\bin\Debug\net6.0\InsuranceCompany.Data.Internal.dll
+D:\5сем\Курсовая\InsuranceCompany\InsuranceCompany.Data.Internal\bin\Debug\net6.0\InsuranceCompany.Data.Internal.pdb
+D:\5сем\Курсовая\InsuranceCompany\InsuranceCompany.Data.Internal\bin\Debug\net6.0\InsuranceCompany.Common.dll
+D:\5сем\Курсовая\InsuranceCompany\InsuranceCompany.Data.Internal\bin\Debug\net6.0\InsuranceCompany.Common.pdb
+D:\5сем\Курсовая\InsuranceCompany\InsuranceCompany.Data.Internal\obj\Debug\net6.0\InsuranceCompany.Data.Internal.csproj.AssemblyReference.cache
+D:\5сем\Курсовая\InsuranceCompany\InsuranceCompany.Data.Internal\obj\Debug\net6.0\InsuranceCompany.Data.Internal.GeneratedMSBuildEditorConfig.editorconfig
+D:\5сем\Курсовая\InsuranceCompany\InsuranceCompany.Data.Internal\obj\Debug\net6.0\InsuranceCompany.Data.Internal.AssemblyInfoInputs.cache
+D:\5сем\Курсовая\InsuranceCompany\InsuranceCompany.Data.Internal\obj\Debug\net6.0\InsuranceCompany.Data.Internal.AssemblyInfo.cs
+D:\5сем\Курсовая\InsuranceCompany\InsuranceCompany.Data.Internal\obj\Debug\net6.0\InsuranceCompany.Data.Internal.csproj.CoreCompileInputs.cache
+D:\5сем\Курсовая\InsuranceCompany\InsuranceCompany.Data.Internal\obj\Debug\net6.0\InsuranceCompany.Data.Internal.csproj.CopyComplete
+D:\5сем\Курсовая\InsuranceCompany\InsuranceCompany.Data.Internal\obj\Debug\net6.0\InsuranceCompany.Data.Internal.dll
+D:\5сем\Курсовая\InsuranceCompany\InsuranceCompany.Data.Internal\obj\Debug\net6.0\refint\InsuranceCompany.Data.Internal.dll
+D:\5сем\Курсовая\InsuranceCompany\InsuranceCompany.Data.Internal\obj\Debug\net6.0\InsuranceCompany.Data.Internal.pdb
+D:\5сем\Курсовая\InsuranceCompany\InsuranceCompany.Data.Internal\obj\Debug\net6.0\ref\InsuranceCompany.Data.Internal.dll

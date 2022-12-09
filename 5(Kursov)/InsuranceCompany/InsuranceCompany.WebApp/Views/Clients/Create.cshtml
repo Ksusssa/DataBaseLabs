@@ -1,0 +1,86 @@
+﻿@using InsuranceCompany.Common.Enums.Data
+@model InsuranceCompany.WebApp.Models.Client.ClientCreateVM
+@{
+    ViewData["Title"] = "Create Client";
+}
+
+<link rel="stylesheet" href="~/bootstrap-datepicker/css/bootstrap-datepicker.min.css">
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="row">
+    <div class="col-sm-6 mx-auto">
+        <form id="registerForm" method="post">
+            <h2>Create a new client.</h2>
+            <hr />
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-floating">
+                <input asp-for="@Model.Email" class="form-control" autocomplete="username" aria-required="true" />
+                <label asp-for="@Model.Email"></label>
+                <span asp-validation-for="@Model.Email" class="text-danger"></span>
+            </div>
+            <div class="form-floating">
+                <input asp-for="@Model.FirstName" class="form-control" autocomplete="username" aria-required="true" />
+                <label asp-for="@Model.FirstName"></label>
+                <span asp-validation-for="@Model.FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-floating">
+                <input asp-for="@Model.LastName" class="form-control" autocomplete="username" aria-required="true" />
+                <label asp-for="@Model.LastName"></label>
+                <span asp-validation-for="@Model.LastName" class="text-danger"></span>
+            </div>
+            <div class="form-floating">
+                <input asp-for="@Model.MiddleName" class="form-control" autocomplete="username" aria-required="true" />
+                <label asp-for="@Model.MiddleName"></label>
+                <span asp-validation-for="@Model.MiddleName" class="text-danger"></span>
+            </div>
+            <div class="form-floating">
+                <input asp-for="@Model.Address" class="form-control" autocomplete="username" aria-required="true" />
+                <label asp-for="@Model.Address"></label>
+                <span asp-validation-for="@Model.Address" class="text-danger"></span>
+            </div>
+            <div class="form-floating">
+                <input asp-for="@Model.Passport" class="form-control" autocomplete="username" aria-required="true" />
+                <label asp-for="@Model.Passport"></label>
+                <span asp-validation-for="@Model.Passport" class="text-danger"></span>
+            </div>
+            <div class="form-floating">
+                <input asp-for="@Model.Phone" class="form-control" autocomplete="username" aria-required="true" />
+                <label asp-for="@Model.Phone"></label>
+                <span asp-validation-for="@Model.Phone" class="text-danger"></span>
+            </div>
+            <div class="form-floating">
+                <input asp-for="@Model.BornDate" type="date" id="bornDate" class="form-control" autocomplete="username" aria-required="true" />
+                <label asp-for="@Model.BornDate"></label>
+                <span asp-validation-for="@Model.BornDate" class="text-danger"></span>
+            </div>
+            <div class="form-floating">
+                <select class="form-control" asp-for="@Model.Gender" asp-items="Html.GetEnumSelectList<GenderType>()">
+                    <option selected="selected" value="">Please select</option>
+                </select>
+                <label asp-for="@Model.Gender"></label>
+                <span asp-validation-for="@Model.Gender" class="text-danger"></span>
+            </div>
+            <div class="form-floating">
+                <input asp-for="@Model.Password" class="form-control" autocomplete="new-password" aria-required="true" />
+                <label asp-for="@Model.Password"></label>
+                <span asp-validation-for="@Model.Password" class="text-danger"></span>
+            </div>
+            <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Create</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+<partial name="_ValidationScriptsPartial" />
+}
+<script src="~/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+<script src="~/bootstrap-datepicker/locales/bootstrap-datepicker.en-GB.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#bornDate").datepicker({
+            format: "dd/mm/yyyy"
+        });
+
+    });
+</script>

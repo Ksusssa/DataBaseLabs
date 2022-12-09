@@ -22,7 +22,7 @@ namespace InsuranceCompany.Data.Internal.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("InsuranceCompany.Data.Contracts.Entities.Client", b =>
+            modelBuilder.Entity("InsuranceCompany.Data.Internal.Entities.Client", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -37,21 +37,6 @@ namespace InsuranceCompany.Data.Internal.Migrations
                     b.Property<DateTime>("BornDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<string>("FirstName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("Gender")
-                        .HasColumnType("int");
-
-                    b.Property<string>("LastName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("MiddleName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Passport")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -60,12 +45,18 @@ namespace InsuranceCompany.Data.Internal.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
                     b.HasKey("Id");
 
-                    b.ToTable("Clients");
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Clients", (string)null);
                 });
 
-            modelBuilder.Entity("InsuranceCompany.Data.Contracts.Entities.Employee", b =>
+            modelBuilder.Entity("InsuranceCompany.Data.Internal.Entities.Employee", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -76,30 +67,21 @@ namespace InsuranceCompany.Data.Internal.Migrations
                     b.Property<long>("Experience")
                         .HasColumnType("bigint");
 
-                    b.Property<string>("FirstName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("Gender")
-                        .HasColumnType("int");
-
-                    b.Property<string>("LastName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("MiddleName")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<int>("TypeOfPost")
                         .HasColumnType("int");
 
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
                     b.HasKey("Id");
 
-                    b.ToTable("Employees");
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Employees", (string)null);
                 });
 
-            modelBuilder.Entity("InsuranceCompany.Data.Contracts.Entities.Policy", b =>
+            modelBuilder.Entity("InsuranceCompany.Data.Internal.Entities.Policy", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -107,7 +89,7 @@ namespace InsuranceCompany.Data.Internal.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"), 1L, 1);
 
-                    b.Property<long>("ClientId")
+                    b.Property<long?>("ClientId")
                         .HasColumnType("bigint");
 
                     b.Property<long>("EmployeeId")
@@ -142,10 +124,10 @@ namespace InsuranceCompany.Data.Internal.Migrations
 
                     b.HasIndex("PolicyTypeId");
 
-                    b.ToTable("Policies");
+                    b.ToTable("Policies", (string)null);
                 });
 
-            modelBuilder.Entity("InsuranceCompany.Data.Contracts.Entities.PolicyType", b =>
+            modelBuilder.Entity("InsuranceCompany.Data.Internal.Entities.PolicyType", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -167,10 +149,10 @@ namespace InsuranceCompany.Data.Internal.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("TypeOfPolicies");
+                    b.ToTable("TypeOfPolicies", (string)null);
                 });
 
-            modelBuilder.Entity("InsuranceCompany.Data.Contracts.Entities.Risk", b =>
+            modelBuilder.Entity("InsuranceCompany.Data.Internal.Entities.Risk", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -191,7 +173,84 @@ namespace InsuranceCompany.Data.Internal.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Risks");
+                    b.ToTable("Risks", (string)null);
+                });
+
+            modelBuilder.Entity("InsuranceCompany.Data.Internal.Entities.User", b =>
+                {
+                    b.Property<string>("Id")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("AccessFailedCount")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ConcurrencyStamp")
+                        .IsConcurrencyToken()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Email")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<bool>("EmailConfirmed")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("FirstName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int?>("Gender")
+                        .HasColumnType("int");
+
+                    b.Property<string>("LastName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("LockoutEnabled")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTimeOffset?>("LockoutEnd")
+                        .HasColumnType("datetimeoffset");
+
+                    b.Property<string>("MiddleName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("NormalizedEmail")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("NormalizedUserName")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.Property<string>("PasswordHash")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PhoneNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("PhoneNumberConfirmed")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("SecurityStamp")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("TwoFactorEnabled")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("UserName")
+                        .HasMaxLength(256)
+                        .HasColumnType("nvarchar(256)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("NormalizedEmail")
+                        .HasDatabaseName("EmailIndex");
+
+                    b.HasIndex("NormalizedUserName")
+                        .IsUnique()
+                        .HasDatabaseName("UserNameIndex")
+                        .HasFilter("[NormalizedUserName] IS NOT NULL");
+
+                    b.ToTable("AspNetUsers", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRole", b =>
@@ -244,71 +303,6 @@ namespace InsuranceCompany.Data.Internal.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("AspNetRoleClaims", (string)null);
-                });
-
-            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUser", b =>
-                {
-                    b.Property<string>("Id")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<int>("AccessFailedCount")
-                        .HasColumnType("int");
-
-                    b.Property<string>("ConcurrencyStamp")
-                        .IsConcurrencyToken()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Email")
-                        .HasMaxLength(256)
-                        .HasColumnType("nvarchar(256)");
-
-                    b.Property<bool>("EmailConfirmed")
-                        .HasColumnType("bit");
-
-                    b.Property<bool>("LockoutEnabled")
-                        .HasColumnType("bit");
-
-                    b.Property<DateTimeOffset?>("LockoutEnd")
-                        .HasColumnType("datetimeoffset");
-
-                    b.Property<string>("NormalizedEmail")
-                        .HasMaxLength(256)
-                        .HasColumnType("nvarchar(256)");
-
-                    b.Property<string>("NormalizedUserName")
-                        .HasMaxLength(256)
-                        .HasColumnType("nvarchar(256)");
-
-                    b.Property<string>("PasswordHash")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("PhoneNumber")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("PhoneNumberConfirmed")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("SecurityStamp")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<bool>("TwoFactorEnabled")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("UserName")
-                        .HasMaxLength(256)
-                        .HasColumnType("nvarchar(256)");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("NormalizedEmail")
-                        .HasDatabaseName("EmailIndex");
-
-                    b.HasIndex("NormalizedUserName")
-                        .IsUnique()
-                        .HasDatabaseName("UserNameIndex")
-                        .HasFilter("[NormalizedUserName] IS NOT NULL");
-
-                    b.ToTable("AspNetUsers", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
@@ -408,24 +402,44 @@ namespace InsuranceCompany.Data.Internal.Migrations
 
                     b.HasIndex("TypesOfPoliciesId");
 
-                    b.ToTable("PolicyTypeRisk");
+                    b.ToTable("PolicyTypeRisk", (string)null);
                 });
 
-            modelBuilder.Entity("InsuranceCompany.Data.Contracts.Entities.Policy", b =>
+            modelBuilder.Entity("InsuranceCompany.Data.Internal.Entities.Client", b =>
                 {
-                    b.HasOne("InsuranceCompany.Data.Contracts.Entities.Client", "Client")
-                        .WithMany("Policies")
-                        .HasForeignKey("ClientId")
+                    b.HasOne("InsuranceCompany.Data.Internal.Entities.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("InsuranceCompany.Data.Contracts.Entities.Employee", "Employee")
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("InsuranceCompany.Data.Internal.Entities.Employee", b =>
+                {
+                    b.HasOne("InsuranceCompany.Data.Internal.Entities.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("InsuranceCompany.Data.Internal.Entities.Policy", b =>
+                {
+                    b.HasOne("InsuranceCompany.Data.Internal.Entities.Client", "Client")
+                        .WithMany("Policies")
+                        .HasForeignKey("ClientId");
+
+                    b.HasOne("InsuranceCompany.Data.Internal.Entities.Employee", "Employee")
                         .WithMany("Policies")
                         .HasForeignKey("EmployeeId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("InsuranceCompany.Data.Contracts.Entities.PolicyType", "PolicyType")
+                    b.HasOne("InsuranceCompany.Data.Internal.Entities.PolicyType", "PolicyType")
                         .WithMany()
                         .HasForeignKey("PolicyTypeId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -449,7 +463,7 @@ namespace InsuranceCompany.Data.Internal.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
+                    b.HasOne("InsuranceCompany.Data.Internal.Entities.User", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -458,7 +472,7 @@ namespace InsuranceCompany.Data.Internal.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
+                    b.HasOne("InsuranceCompany.Data.Internal.Entities.User", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -473,7 +487,7 @@ namespace InsuranceCompany.Data.Internal.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
+                    b.HasOne("InsuranceCompany.Data.Internal.Entities.User", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -482,7 +496,7 @@ namespace InsuranceCompany.Data.Internal.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", null)
+                    b.HasOne("InsuranceCompany.Data.Internal.Entities.User", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -491,25 +505,25 @@ namespace InsuranceCompany.Data.Internal.Migrations
 
             modelBuilder.Entity("PolicyTypeRisk", b =>
                 {
-                    b.HasOne("InsuranceCompany.Data.Contracts.Entities.Risk", null)
+                    b.HasOne("InsuranceCompany.Data.Internal.Entities.Risk", null)
                         .WithMany()
                         .HasForeignKey("RisksId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("InsuranceCompany.Data.Contracts.Entities.PolicyType", null)
+                    b.HasOne("InsuranceCompany.Data.Internal.Entities.PolicyType", null)
                         .WithMany()
                         .HasForeignKey("TypesOfPoliciesId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("InsuranceCompany.Data.Contracts.Entities.Client", b =>
+            modelBuilder.Entity("InsuranceCompany.Data.Internal.Entities.Client", b =>
                 {
                     b.Navigation("Policies");
                 });
 
-            modelBuilder.Entity("InsuranceCompany.Data.Contracts.Entities.Employee", b =>
+            modelBuilder.Entity("InsuranceCompany.Data.Internal.Entities.Employee", b =>
                 {
                     b.Navigation("Policies");
                 });

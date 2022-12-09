@@ -1,0 +1,62 @@
+﻿<div class="col-lg-12">
+    <div class="card z-depth-1">
+        <div class="card-body">
+            <div class="tab-content p-2">
+                <h2>User table: </h2>
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div id="usergrid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://kendo.cdn.telerik.com/2022.3.1109/js/jquery.min.js"></script>
+<script src="https://kendo.cdn.telerik.com/2022.3.1109/js/kendo.all.min.js"></script>
+<script>
+        $(document).ready(function () {
+        var users = new kendo.data.DataSource({
+            pageSize: 10,
+            transport: {
+                read: { url: "/admin/users", cache: false },
+                update: { url: "/admin/updateUser", type: "POST"},
+                destroy: { url: "/admin/deleteUser", type: "DELETE" },
+            },
+            schema: {
+            model: {
+                id: "id",
+                fields: {
+                    userName: { validation: { required: true } },
+                    email: { validation: { required: true } },
+                    phoneNumber: { validation: { required: true } },
+                    firstName: { validation: { required: true } },
+                    lastName: { validation: { required: true } },
+                    middleName: { validation: { required: true } },
+                }
+            }
+        }
+        });
+
+        $("#usergrid").kendoGrid({
+            columns: [
+                { field: "id", hidden: true, 'editable': function () { return false } },
+                { field: "userName", title: "Uesr Name", width: 180 },
+                { field: "firstName", title: "First Name", width: 180 },
+                { field: "lastName", title: "Last Name", width: 180 },
+                { field: "middleName", title: "Middle Name", width: 180 },
+                { field: "email", title: "E-mail", width: 180 },
+                { field: "phoneNumber", title: "Phone", width: 180 },
+                { command: ["edit", "destroy"], title: "&nbsp;", width: "250px" }
+            ],
+            height: 500,
+            dataSource: users,
+            pageable: true,
+            sortable: true,
+            filterable: true,
+            editable: "popup",
+        });
+    });
+</script>

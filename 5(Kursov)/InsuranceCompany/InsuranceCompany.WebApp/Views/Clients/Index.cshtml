@@ -7,48 +7,65 @@
 
 <h3>Clients</h3>
 
+<div class="mt-4 mb-4">
+    <a href="@Url.Action("Create", "Clients")"><h5>Create Client</h5></a>
+</div>
+
 <table class="table">
     <thead>
         <tr>
-                <th>
-                    @Html.DisplayNameFor(model => model.FirstName)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.LastName)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.BornDate)
-                </th>
-                <th>
-                    Policies
-                </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User.UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BornDate)
+            </th>
+            <th>
+                Policies
+            </th>
         </tr>
     </thead>
     <tbody>
-    @foreach (var item in Model) 
-    {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.FirstName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.LastName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.BornDate)
-            </td>
-            <td>
-                @foreach(var policy in item.Policies)
-                {
-                   <ul>
-                   @if(@policy.PolicyType is not null)
-                   {
-                       <li>@policy.PolicyType.Name</li>
-                   }
-                   </ul>
-                }
-            </td>
-        </tr>
-    }
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.User.UserName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.User.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BornDate)
+                </td>
+                <td>
+                    @foreach (var policy in item.Policies)
+                    {
+                        <ul>
+                            @if (@policy.PolicyType is not null)
+                            {
+                                <li>@policy.PolicyType.Name</li>
+                            }
+                        </ul>
+                    }
+                </td>
+                <td>
+                    <div class="card-footer">
+                        <a class="btn btn-primary" href="@Url.Action("EditPolicies", "Clients", new { id = item.Id })">Edit Policies</a>
+                    </div>
+                </td>
+                <td>
+                    @{
+                        using (Html.BeginForm("Delete", "Clients", new { id = item.Id }))
+                        {
+                            <button type="submit" class="btn btn-outline-danger">Delete</button>
+                        }
+                    }
+                </td>
+            </tr>
+        }
     </tbody>
 </table>

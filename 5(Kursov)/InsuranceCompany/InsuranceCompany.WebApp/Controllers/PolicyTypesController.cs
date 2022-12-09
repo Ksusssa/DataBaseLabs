@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace InsuranceCompany.WebApp.Controllers
 {
-    //[Authorize(Roles = "Employee")]
+    [Authorize(Roles = "Employee,Admin")]
     public class PolicyTypesController : BaseController
     {
         public PolicyTypesController(InsuranceCompanyDbContext dbContext) : base(dbContext)
@@ -67,14 +67,32 @@ namespace InsuranceCompany.WebApp.Controllers
 
         public async Task<ActionResult> Edit(long id)
         {
-            var policyType = await dbContext.TypeOfPolicies.FindAsync(id);
+            var policyType = await dbContext.TypeOfPolicies
+                .Include(p => p.Risks)
+                .AsNoTracking()
+                .SingleOrDefaultAsync(p => p.Id == id);
 
             if (policyType == null)
             {
                 return NotFound();
             }
 
-            return View(policyType);
+            var policyTypeVM = new PolicyTypeVM
+            {
+                Id = id,
+                Name = policyType.Name,
+                Condition = policyType.Condition,
+                Description = policyType.Description,
+                Risks = policyType.Risks.Select(r => new RiskVM
+                {
+                    Id = r.Id,
+                    Name = r.Name,
+                    Description = r.Description,
+                    AverageProbability = r.AverageProbability,
+                }).ToList(),
+            };
+
+            return View(policyTypeVM);
         }
 
         [HttpPost]
@@ -116,6 +134,57 @@ namespace InsuranceCompany.WebApp.Controllers
             }
 
             dbContext.TypeOfPolicies.Remove(policyType);
+            await dbContext.SaveChangesAsync();
+
+            return RedirectToAction("Index");
+        }
+
+        public async Task<ActionResult> EditPolicyTypeRisks(long id)
+        {
+            var policyType = await dbContext.TypeOfPolicies
+                .Include(p => p.Risks)
+                .AsNoTracking()
+                .SingleOrDefaultAsync(p => p.Id == id);
+
+            if (policyType == null)
+            {
+                return NotFound();
+            }
+
+            var policyTypeRisksUpdateVM = new List<PolicyTypeUpdateRiskVM>();
+            foreach(var risk in dbContext.Risks)
+            {
+                var policyTypeRiskUpdateVM = new PolicyTypeUpdateRiskVM
+                {
+                    RiskId = risk.Id,
+                    RiskName = risk.Name
+                };
+
+                policyTypeRiskUpdateVM.IsSelected = policyType.Risks.Any(r => r.Id == risk.Id);
+
+                policyTypeRisksUpdateVM.Add(policyTypeRiskUpdateVM);
+            }
+
+            return View(policyTypeRisksUpdateVM);
+        }
+
+        [HttpPost]
+        public async Task<ActionResult> EditPolicyTypeRisks(long id, List<PolicyTypeUpdateRiskVM> policyTypeRisksUpdateVM)
+        {
+            var policyType = await dbContext.TypeOfPolicies
+                .Include(p => p.Risks)
+                .SingleOrDefaultAsync(p => p.Id == id);
+
+            if (policyType == null)
+            {
+                return NotFound();
+            }
+
+            var riskIds = policyTypeRisksUpdateVM.Where(p => p.IsSelected).Select(p => p.RiskId);
+            var risks = dbContext.Risks.Where(r => riskIds.Any(id => r.Id == id)).ToList();
+            policyType.Risks = risks;
+
+            dbContext.TypeOfPolicies.Update(policyType);
             await dbContext.SaveChangesAsync();
 
             return RedirectToAction("Index");

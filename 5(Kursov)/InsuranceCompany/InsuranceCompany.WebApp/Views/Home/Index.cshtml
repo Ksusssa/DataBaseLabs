@@ -2,7 +2,63 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container">
+    <div id="demo1" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators" style="z-index:1">
+            <li data-target="#demo1" data-slide-to="0" class="active"></li>
+            <li data-target="#demo1" data-slide-to="1" class=""></li>
+            <li data-target="#demo1" data-slide-to="2" class=""></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://imgs.search.brave.com/J3bxP9kO1K6v5LnPIGBm7ZjbKu7253isMIxu2xLIIVM/rs:fit:1200:900:1/g:ce/aHR0cHM6Ly9xdW90/ZWZhbmN5LmNvbS9t/ZWRpYS93YWxscGFw/ZXIvMTYwMHg5MDAv/MjI5MzIyMS1CZW4t/RmVsZG1hbi1RdW90/ZS1Eb24tdC1zZWxs/LWxpZmUtaW5zdXJh/bmNlLVNlbGwtd2hh/dC1saWZlLmpwZw" alt="Los Angeles" style="width:100%;height:100%;">
+                <div class="carousel-caption">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://imgs.search.brave.com/ebs5HQ_AtQ1kUSaZUq5CvpFsHC4RQG7RdDxGqoMgZF4/rs:fit:1200:900:1/g:ce/aHR0cHM6Ly9xdW90/ZWZhbmN5LmNvbS9t/ZWRpYS93YWxscGFw/ZXIvMTYwMHg5MDAv/MTcyODg3NS1XYXJy/ZW4tQnVmZmV0dC1R/dW90ZS1Jbi10aGUt/aW5zdXJhbmNlLWJ1/c2luZXNzLXRoZXJl/LWlzLW5vLXN0YXR1/dGUuanBn" alt="Chicago" style="width:100%;height:100%;">
+                <div class="carousel-caption">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://imgs.search.brave.com/QIzhE0RJm_8nsW4mYqu3vZTDpbsyr7eXsrrtoE1Q7x4/rs:fit:1200:900:1/g:ce/aHR0cHM6Ly9xdW90/ZWZhbmN5LmNvbS9t/ZWRpYS93YWxscGFw/ZXIvMTYwMHg5MDAv/Mjg3NzEyOS1CZW5q/YW1pbi1GcmFua2xp/bi1RdW90ZS1BLXBv/bGljeS1vZi1saWZl/LWluc3VyYW5jZS1p/cy10aGUtY2hlYXBl/c3QuanBn" alt="New York" style="width:100%;height:100%;">
+                <div class="carousel-caption">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#demo1" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo1" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+    <br>
+    <br>
+
+    <div class="container text-center">
+        <h1 class="display-4 fw-bold">Welcome to Insurance Company</h1>
+        <div class="m-3">
+            <h4>
+                Life Insurance has an important role in our life.
+                <br />
+                Life Insurance gives you a power backup for you as well as for your family.
+                <br />
+                Let's work with our company!
+            </h4>
+        </div>
+        @if(User.IsInRole("Client"))
+        {
+            <button type="button" class="btn btn-primary m-lg-4" onclick="location.href='@Url.Action("SelectPolicies", "Home")'">
+                GET STARTED
+            </button>
+        }
+    </div>
+
 </div>

@@ -1,26 +1,46 @@
-﻿@using Microsoft.AspNetCore.Identity
-@inject SignInManager<IdentityUser> SignInManager
-@inject UserManager<IdentityUser> UserManager
+﻿@using InsuranceCompany.Data.Internal.Entities
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<User> SignInManager
+@inject UserManager<User> UserManager
 
 <ul class="navbar-nav">
-@if (SignInManager.IsSignedIn(User))
-{
-    <li class="nav-item">
-        <a  class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @User.Identity?.Name!</a>
-    </li>
-    <li class="nav-item">
-        <form  class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-            <button  type="submit" class="nav-link btn btn-link text-dark">Logout</button>
-        </form>
-    </li>
-}
-else
-{
-    <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Register</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
-    </li>
-}
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <li>
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img style="float: left; padding-right: 10px;" src="https://img.icons8.com/offices/20/000000/test-account.png" /> @UserManager.GetUserName(User)
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    @if(User.IsInRole("Client") || User.IsInRole("Employee"))
+                    {
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy" title="Manage">Manage profile</a>   
+                    }
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <a class="nav-link" asp-area="" asp-controller="Admin" asp-action="Index" title="Manage">Admin panel</a>
+                        <a class="nav-link" asp-area="" asp-controller="Clients" asp-action="Index" title="Manage">Clients</a>
+                        <a class="nav-link" asp-area="" asp-controller="Policies" asp-action="Index" title="Manage">Policies</a>
+                    }
+                    @if (User.IsInRole("Employee") || User.IsInRole("Admin"))
+                    {
+                        <a class="nav-link" asp-area="" asp-controller="Risks" asp-action="Index" title="Manage">Risks</a>
+                        <a class="nav-link" asp-area="" asp-controller="PolicyTypes" asp-action="Index" title="Manage">Policy Types</a>
+                    }
+                    <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                        <button type="submit" class="nav-link btn btn-link">Logout</button>
+                    </form>
+                </div>
+            </div>
+        </li>
+    }
+    else
+    {
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Register</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
+        </li>
+    }
 </ul>

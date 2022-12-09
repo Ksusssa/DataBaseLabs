@@ -15,16 +15,40 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\5сем\Курсовая\DataBaseLabs\5(Kursov)\InsuranceCompany\InsuranceCompany.WebApp
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/5сем/Курсовая/DataBaseLabs/5(Kursov)/InsuranceCompany/InsuranceCompany.WebApp/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5сем/Курсовая/DataBaseLabs/5(Kursov)/InsuranceCompany/InsuranceCompany.WebApp/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5сем/Курсовая/DataBaseLabs/5(Kursov)/InsuranceCompany/InsuranceCompany.WebApp/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5сем/Курсовая/DataBaseLabs/5(Kursov)/InsuranceCompany/InsuranceCompany.WebApp/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5сем/Курсовая/DataBaseLabs/5(Kursov)/InsuranceCompany/InsuranceCompany.WebApp/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/5сем/Курсовая/DataBaseLabs/5(Kursov)/InsuranceCompany/InsuranceCompany.WebApp/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5сем/Курсовая/DataBaseLabs/5(Kursov)/InsuranceCompany/InsuranceCompany.WebApp/Views/Clients/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xEZXRhaWxzLmNzaHRtbA==
+[D:/5сем/Курсовая/DataBaseLabs/5(Kursov)/InsuranceCompany/InsuranceCompany.WebApp/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5сем/Курсовая/DataBaseLabs/5(Kursov)/InsuranceCompany/InsuranceCompany.WebApp/Views/Clients/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xFZGl0LmNzaHRtbA==
+[D:/5сем/Курсовая/DataBaseLabs/5(Kursov)/InsuranceCompany/InsuranceCompany.WebApp/Views/Clients/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5сем/Курсовая/DataBaseLabs/5(Kursov)/InsuranceCompany/InsuranceCompany.WebApp/Views/Clients/EditPolicies.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50c1xFZGl0UG9saWNpZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/5сем/Курсовая/DataBaseLabs/5(Kursov)/InsuranceCompany/InsuranceCompany.WebApp/Views/Clients/Index.cshtml]
@@ -39,6 +63,22 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/5сем/Курсовая/DataBaseLabs/5(Kursov)/InsuranceCompany/InsuranceCompany.WebApp/Views/Home/SelectPolicies.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWxlY3RQb2xpY2llcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5сем/Курсовая/DataBaseLabs/5(Kursov)/InsuranceCompany/InsuranceCompany.WebApp/Views/Policies/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9saWNpZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5сем/Курсовая/DataBaseLabs/5(Kursov)/InsuranceCompany/InsuranceCompany.WebApp/Views/Policies/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9saWNpZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5сем/Курсовая/DataBaseLabs/5(Kursov)/InsuranceCompany/InsuranceCompany.WebApp/Views/Policies/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9saWNpZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/5сем/Курсовая/DataBaseLabs/5(Kursov)/InsuranceCompany/InsuranceCompany.WebApp/Views/PolicyTypes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9saWN5VHlwZXNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -47,12 +87,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9saWN5VHlwZXNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5сем/Курсовая/DataBaseLabs/5(Kursov)/InsuranceCompany/InsuranceCompany.WebApp/Views/PolicyTypes/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9saWN5VHlwZXNcSW5kZXguY3NodG1s
+[D:/5сем/Курсовая/DataBaseLabs/5(Kursov)/InsuranceCompany/InsuranceCompany.WebApp/Views/PolicyTypes/EditPolicyTypeRisks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9saWN5VHlwZXNcRWRpdFBvbGljeVR5cGVSaXNrcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/5сем/Курсовая/DataBaseLabs/5(Kursov)/InsuranceCompany/InsuranceCompany.WebApp/Views/Policy/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9saWN5XEluZGV4LmNzaHRtbA==
+[D:/5сем/Курсовая/DataBaseLabs/5(Kursov)/InsuranceCompany/InsuranceCompany.WebApp/Views/PolicyTypes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9saWN5VHlwZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/5сем/Курсовая/DataBaseLabs/5(Kursov)/InsuranceCompany/InsuranceCompany.WebApp/Views/Risks/Create.cshtml]

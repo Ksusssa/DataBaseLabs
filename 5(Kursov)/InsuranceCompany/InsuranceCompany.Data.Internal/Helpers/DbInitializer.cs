@@ -10,17 +10,16 @@ namespace InsuranceCompany.Data.Internal.Helpers
         private static readonly List<string> roles = new()
         {
             "Admin",
-            "Employee"
+            "Employee",
+            "Client"
         };
 
-        public static void Initialize(InsuranceCompanyDbContext dbContext)
+        public static void InitializeData(InsuranceCompanyDbContext dbContext)
         {
             dbContext.Database.EnsureCreated();
 
             var isDataInserted = dbContext.Risks.Any()
                 || dbContext.TypeOfPolicies.Any()
-                || dbContext.Clients.Any()
-                || dbContext.Employees.Any()
                 || dbContext.Policies.Any();
 
             if (isDataInserted)
@@ -29,88 +28,10 @@ namespace InsuranceCompany.Data.Internal.Helpers
             }
 
             var randomObject = new Random();
-            var rowCount = 10;
-
-            var namesGenderTuple = new List<Tuple<string, Gender>>
-            {
-                new Tuple<string, Gender>("Dmitry", Gender.Male),
-                new Tuple<string, Gender>("Ivan", Gender.Male),
-                new Tuple<string, Gender>("Oleg", Gender.Male),
-                new Tuple<string, Gender>("Roman", Gender.Male),
-                new Tuple<string, Gender>("Pavel", Gender.Male),
-                new Tuple<string, Gender>("Maxim", Gender.Male),
-                new Tuple<string, Gender>("Evgeniy", Gender.Male),
-                new Tuple<string, Gender>("Vyeacheslav", Gender.Male),
-                new Tuple<string, Gender>("Vitaliy", Gender.Male),
-                new Tuple<string, Gender>("Bogdan", Gender.Male),
-                new Tuple<string, Gender>("Zahar", Gender.Male),
-                new Tuple<string, Gender>("Anton", Gender.Male),
-                new Tuple<string, Gender>("Olga", Gender.Female),
-                new Tuple<string, Gender>("Anastasiya", Gender.Female),
-                new Tuple<string, Gender>("Viktoria", Gender.Female),
-                new Tuple<string, Gender>("Elena", Gender.Female),
-                new Tuple<string, Gender>("Vera", Gender.Female),
-                new Tuple<string, Gender>("Kristina", Gender.Female),
-                new Tuple<string, Gender>("Veronica", Gender.Female),
-                new Tuple<string, Gender>("Margarita", Gender.Female),
-            };
-
-            var lastNames = new string[]
-            {
-                "Karavay",
-                "Fedor",
-                "Borisenko",
-                "Tutovich",
-                "Vidovich",
-                "Isai",
-                "Minenko",
-                "Aloha",
-                "Avocs",
-                "Tyet",
-                "Zayevei",
-                "Aserovich",
-                "Himik",
-                "Volodko",
-                "Malinoski",
-                "Hozevich",
-                "Kone",
-                "Tritovich",
-                "Veros",
-                "Hev",
-                "Kev",
-                "Old",
-                "Mitronivich",
-                "Barbos"
-            };
-
-            var middleNames = new string[] { "Viktorov.", "Olegov.", "Vladimirov.", "Fedorov.", "Evgeniev." };
+            var rowCount = 20;
 
             for (int i = 0; i < rowCount; i++)
             {
-                var nameGenderInfoClient = namesGenderTuple[randomObject.Next(namesGenderTuple.Count)];
-                var client = new Client
-                {
-                    FirstName = nameGenderInfoClient.Item1,
-                    LastName = lastNames[randomObject.Next(lastNames.Length)],
-                    MiddleName = middleNames[randomObject.Next(middleNames.Length)],
-                    Address = "Main Street House #" + i,
-                    Gender = nameGenderInfoClient.Item2,
-                    BornDate = DateTime.Now,
-                    Phone = "+3123" + randomObject.Next().ToString() + i,
-                    Passport = "NOT ADDED"
-                };
-
-                var nameGenderInfoEmployee = namesGenderTuple[randomObject.Next(namesGenderTuple.Count)];
-                var employee = new Employee
-                {
-                    FirstName = nameGenderInfoEmployee.Item1,
-                    LastName = lastNames[randomObject.Next(lastNames.Length)],
-                    MiddleName = middleNames[randomObject.Next(middleNames.Length)],
-                    Gender = nameGenderInfoEmployee.Item2,
-                    TypeOfPost = PostType.SalesAgent,
-                    Experience = randomObject.Next(1, 10),
-                };
-
                 var risk = new Risk
                 {
                     AverageProbability = randomObject.Next(1, 10),
@@ -127,14 +48,11 @@ namespace InsuranceCompany.Data.Internal.Helpers
 
                 dbContext.Risks.Add(risk);
                 dbContext.TypeOfPolicies.Add(policyType);
-                dbContext.Clients.Add(client);
-                dbContext.Employees.Add(employee);
             }
 
             dbContext.SaveChanges();
 
-            var policiesRowCount = rowCount * 2;
-            for (int i = 0; i < policiesRowCount; i++)
+            for (int i = 0; i < rowCount; i++)
             {
                 var clientId = randomObject.Next(1, rowCount);
                 var employeeId = randomObject.Next(1, rowCount);
@@ -143,12 +61,14 @@ namespace InsuranceCompany.Data.Internal.Helpers
                 {
                     StartDate = DateTime.Now,
                     FinishDate = DateTime.Now.AddDays(randomObject.Next(1, 100)),
-                    Price = 500 * (float)randomObject.NextDouble(),
-                    Payment = 100 * (float)randomObject.NextDouble(),
+                    Price = randomObject.Next(1, 100),
+                    Payment = randomObject.Next(1, 100),
                     PolicyTypeId = randomObject.Next(1, rowCount),
                     ClientId = clientId,
                     EmployeeId = employeeId,
                 };
+
+                if (employeeId > 13) policy.ClientId = null;
 
                 dbContext.Policies.Add(policy);
             }
@@ -156,10 +76,10 @@ namespace InsuranceCompany.Data.Internal.Helpers
             dbContext.SaveChanges();
         }
 
-        public static async Task InitializeRoles(UserManager<IdentityUser> userManager, RoleManager<IdentityRole> roleManager)
+        public static async Task InitializeRoles(UserManager<User> userManager, RoleManager<IdentityRole> roleManager)
         {
             string adminEmail = "admin@mail.ru";
-            string adminPassword = "Admin";
+            string adminPassword = "Admin123!";
 
             foreach (var role in roles)
             {
@@ -169,11 +89,11 @@ namespace InsuranceCompany.Data.Internal.Helpers
                 }
             }
 
-            if (await userManager.FindByNameAsync(adminEmail) is null)
+            if (await userManager.FindByEmailAsync(adminEmail) is null)
             {
-                var admin = new IdentityUser
+                var admin = new User
                 {
-                    UserName = "Admin",
+                    UserName = adminEmail,
                     Email = adminEmail,
                     PhoneNumber = "+375441111111",
                     EmailConfirmed = true,
@@ -190,6 +110,79 @@ namespace InsuranceCompany.Data.Internal.Helpers
                     await userManager.AddToRoleAsync(admin, "Admin");
                 }
             }
+        }
+
+        public static async Task InitializeUsers(
+            InsuranceCompanyDbContext dbContext,
+            UserManager<User> userManager)
+        {
+            var isDataInserted = dbContext.Clients.Any()
+                || dbContext.Employees.Any();
+
+            if (isDataInserted)
+            {
+                return;
+            }
+
+            var rowCount = 20;
+            var clientDefaultPassword = "Client123!";
+            var emplDefaultPassword = "Empl123!";
+
+            for (int i = 0; i < rowCount; i++)
+            {
+                var user = new User
+                {
+                    UserName = $"client-{i}@mail.com",
+                    Email = $"client-{i}@mail.com",
+                    PhoneNumber = $"+3754{i}111{i}111",
+                };
+
+                IdentityResult result = await userManager.CreateAsync(user, clientDefaultPassword);
+
+                if (result.Succeeded)
+                {
+                    await userManager.AddToRoleAsync(user, "Client");
+                }
+
+                var client = new Client
+                {
+                    User = user,
+                    Address = "Empty",
+                    BornDate = DateTime.Now,
+                    Passport = "Nope",
+                    Phone = $"+3754{i}111{i}111",
+                };
+
+                await dbContext.Clients.AddAsync(client);
+            }
+
+            for (int i = 0; i < rowCount; i++)
+            {
+                var user = new User
+                {
+                    UserName = $"empl{i}@mail.com",
+                    Email = $"empl{i}@mail.com",
+                    PhoneNumber = $"+3754{i}111{i}111",
+                };
+
+                IdentityResult result = await userManager.CreateAsync(user, emplDefaultPassword);
+
+                if (result.Succeeded)
+                {
+                    await userManager.AddToRoleAsync(user, "Employee");
+                }
+
+                var employese= new Employee
+                {
+                    User = user,
+                    TypeOfPost = PostType.SalesAgent,
+                    Experience = i,
+                };
+
+                await dbContext.Employees.AddAsync(employese);
+            }
+
+            await dbContext.SaveChangesAsync();
         }
     }
 }

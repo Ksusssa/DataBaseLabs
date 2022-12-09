@@ -1,0 +1,74 @@
+﻿@model IEnumerable<InsuranceCompany.Data.Internal.Entities.Policy>
+
+@{
+    ViewData["Title"] = "Policies";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h3>Policies</h3>
+<div class="mt-4 mb-4">
+    <a href="@Url.Action("Create", "Policies")"><h5>Create Policy</h5></a>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                Client Firstname
+            </th>
+            <th>
+                Employee FirstName
+            </th>
+            <th>
+                Policy Type Name
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @if (@item.Client is not null && @item.Client.User is not null)
+                    {
+                        @Html.DisplayFor(modelItem => item.Client.User.UserName)
+                    }
+                    else
+                    {
+                        <h6>Client is not defiended</h6>
+                    }
+                </td>
+                <td>
+                    @if (@item.Employee is not null)
+                    {
+                        @Html.DisplayFor(modelItem => item.Employee.User.UserName)
+                    }
+                </td>
+                <td>
+                    @if (@item.PolicyType is not null)
+                    {
+                        @item.PolicyType.Name
+                    }
+                </td>
+                <td>
+                    <a href="@Url.Action("Edit", "Policies", new { id = item.Id })">Edit</a>
+                </td>
+                <td>
+                    @{
+                        using (Html.BeginForm("Delete", "Policies", new { id = item.Id }))
+                        {
+                            <button type="submit" class="btn btn-outline-danger">Delete</button>
+                        }
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

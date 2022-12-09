@@ -20,9 +20,9 @@ namespace InsuranceCompany.Data.Internal.Entities
         
         public PolicyType PolicyType { get; set; }
         
-        public long ClientId { get; set; }
+        public long? ClientId { get; set; }
         
-        public Client Client { get; set; }
+        public Client? Client { get; set; }
         
         public long EmployeeId { get; set; }
         

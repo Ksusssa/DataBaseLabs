@@ -2,7 +2,7 @@ using InsuranceCompany.Data.Internal.Entities.Base;
 
 namespace InsuranceCompany.Data.Internal.Entities
 {
-    public class Client : HumanBase
+    public class Client : EntityBase
     {
         public DateTime BornDate { get; set; }
         
@@ -11,6 +11,10 @@ namespace InsuranceCompany.Data.Internal.Entities
         public string Phone { get; set; }
         
         public string Passport { get; set; }
+
+        public User User { get; set; }
+
+        public string UserId { get; set; }
         
         public ICollection<Policy> Policies { get; set; } = new List<Policy>();
     }

@@ -1,0 +1,31 @@
+﻿@model IEnumerable<InsuranceCompany.Data.Internal.Entities.Policy>
+
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+
+<h2>Please select needed Isurance Policy.</h2>
+<h5>Avaible Policices: </h5>
+<div class="container">
+    <div class="row">
+        @foreach (var p in Model)
+        {
+            <div class="col-sm-4 py-2">
+                <div class="card text-white bg-primary">
+                    <div class="card-body">
+                        <h3 class="card-title">@p.PolicyType.Name</h3>
+                        <p class="card-text">@p.PolicyType.Description</p>
+                        <p class="card-text">@p.PolicyType.Condition</p>
+                        <p class="card-text">Price : @p.Price</p>
+                        @{
+                            using (Html.BeginForm("SelectPolicy", "Home", new { id = p.Id }))
+                            {
+                                <button type="submit" class="btn btn-outline-light">Select Policy</button>
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

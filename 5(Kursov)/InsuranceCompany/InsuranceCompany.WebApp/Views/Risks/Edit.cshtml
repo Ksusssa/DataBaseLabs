@@ -53,7 +53,9 @@
                     <label class="col-lg-3 col-form-label form-control-label"></label>
                     <div class="col-lg-9">
                         <input type="submit" class="btn btn-primary" value="Save" />
-                        <input type="submit" class="btn btn-secondary" asp-controller="Risks" asp-action="Index" value="Cancel" >
+                        <button type="button" class="btn btn-secondary" onclick="location.href='@Url.Action("Index", "Risks")'">
+                            Cancel
+                        </button>
                     </div>
                 </div>
             </form>

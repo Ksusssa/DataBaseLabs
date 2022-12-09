@@ -10,6 +10,6 @@ namespace InsuranceCompany.Data.Internal.Entities.Base
 
         public string MiddleName { get; set; }
 
-        public Gender Gender { get; set; }
+        public GenderType Gender { get; set; }
     }
 }

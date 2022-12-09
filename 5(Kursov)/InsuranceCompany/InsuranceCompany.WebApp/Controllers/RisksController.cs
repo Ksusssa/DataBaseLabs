@@ -8,7 +8,7 @@ using InsuranceCompany.WebApp.Models.Risk;
 
 namespace InsuranceCompany.WebApp.Controllers
 {
-    //[Authorize(Roles = "Employee")]
+    [Authorize(Roles = "Employee,Admin")]
     public class RisksController : BaseController
     {
         public RisksController(InsuranceCompanyDbContext dbContext) : base(dbContext)
@@ -23,7 +23,7 @@ namespace InsuranceCompany.WebApp.Controllers
                 .AsNoTracking()
                 .Select(r => 
                     new RiskVM {
-                        Id = r.Id,
+                        Id = r.Id,  
                         Name = r.Name,
                         Description = r.Description,
                         AverageProbability = r.AverageProbability 

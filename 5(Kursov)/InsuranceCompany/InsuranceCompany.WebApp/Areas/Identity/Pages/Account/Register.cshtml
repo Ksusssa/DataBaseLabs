@@ -1,0 +1,92 @@
+﻿@page
+@using InsuranceCompany.Common.Enums.Data
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<link rel="stylesheet" href="~/bootstrap-datepicker/css/bootstrap-datepicker.min.css">
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="row">
+    <div class="col-sm-6 mx-auto">
+        <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+            <h2>Create a new account.</h2>
+            <hr />
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-floating">
+                <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" />
+                <label asp-for="Input.Email"></label>
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+            </div>
+            <div class="form-floating">
+                <input asp-for="Input.FirstName" class="form-control" autocomplete="username" aria-required="true" />
+                <label asp-for="Input.FirstName"></label>
+                <span asp-validation-for="Input.FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-floating">
+                <input asp-for="Input.LastName" class="form-control" autocomplete="username" aria-required="true" />
+                <label asp-for="Input.LastName"></label>
+                <span asp-validation-for="Input.LastName" class="text-danger"></span>
+            </div>
+            <div class="form-floating">
+                <input asp-for="Input.MiddleName" class="form-control" autocomplete="username" aria-required="true" />
+                <label asp-for="Input.MiddleName"></label>
+                <span asp-validation-for="Input.MiddleName" class="text-danger"></span>
+            </div>
+            <div class="form-floating">
+                <input asp-for="Input.Address" class="form-control" autocomplete="username" aria-required="true" />
+                <label asp-for="Input.Address"></label>
+                <span asp-validation-for="Input.Address" class="text-danger"></span>
+            </div>
+            <div class="form-floating">
+                <input asp-for="Input.Passport" class="form-control" autocomplete="username" aria-required="true" />
+                <label asp-for="Input.Passport"></label>
+                <span asp-validation-for="Input.Passport" class="text-danger"></span>
+            </div>
+            <div class="form-floating">
+                <input asp-for="Input.Phone" class="form-control" autocomplete="username" aria-required="true" />
+                <label asp-for="Input.Phone"></label>
+                <span asp-validation-for="Input.Phone" class="text-danger"></span>
+            </div>
+            <div class="form-floating">
+                <input asp-for="Input.BornDate" type="date" id="bornDate" class="form-control" autocomplete="username" aria-required="true" />
+                <label asp-for="Input.BornDate"></label>
+                <span asp-validation-for="Input.BornDate" class="text-danger"></span>
+            </div>
+            <div class="form-floating">
+                <select class="form-control" asp-for="Input.Gender" asp-items="Html.GetEnumSelectList<GenderType>()">
+                    <option selected="selected" value="">Please select</option>
+                </select>
+                <label asp-for="Input.Gender"></label>
+                <span asp-validation-for="Input.Gender" class="text-danger"></span>
+            </div>
+            <div class="form-floating">
+                <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" />
+                <label asp-for="Input.Password"></label>
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+            </div>
+            <div class="form-floating">
+                <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" />
+                <label asp-for="Input.ConfirmPassword"></label>
+                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+            </div>
+            <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+<partial name="_ValidationScriptsPartial" />
+}
+<script src="~/bootstrap-datepicker/js/bootstrap-datepicker.min.js"></script>
+<script src="~/bootstrap-datepicker/locales/bootstrap-datepicker.en-GB.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#bornDate").datepicker({
+            format: "dd/mm/yyyy"
+        });
+
+    });
+</script>
