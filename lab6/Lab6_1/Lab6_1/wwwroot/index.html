@@ -1,0 +1,282 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Policy</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <h2>Policy lisst</h2>
+    <form name="policyForm">
+        <intup typeof=" hidden" name="id" value="0" />
+
+        <div>
+            <select name="PolicyType">
+            </select>
+            <label for="PolicyType"> Type Of Policy:</label>
+        </div>
+
+        <div>
+            <select name="Client">
+            </select>
+            <label for="Client">Client email </label>
+        </div>
+
+        <div>
+            <select name="Employee">
+            </select>
+            <label for="Employee">Employee Firstname</label>
+        </div>
+
+        <div class="pannel-body">
+            <button type="submit" id="submit" class="btn btn-primary">Save</button>
+            <a id="reset" class="btn btn-primary">Cancel</a>
+        </div>
+    </form>
+
+    <table class="table table-condensed table-striped col-md-6">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Policy Type</th>
+                <th>Client Firstname</th>
+                <th>Employee Firstname</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <div>2022 © web api lab</div>
+
+    <script>
+        async function CreatePolicyTypeList() {
+            var selectList = policyForm.PolicyType;
+            const response = await fetch("/api/TypePolicy", {
+                method: "GET",
+                headers: {"Accept": "application/json"}
+            });
+            if (response.ok === true) {
+                const typePolicy = await response.json();
+                typePolicy.forEach(p => {
+                    var option = document.createElement("option");
+                    option.text = p.name;
+                    option.value = parseInt(p.Id);
+                    selectList.appendChild(option)
+                });
+            }
+        }
+
+        async function CreateClientList() {
+            var selectList = policyForm.Client;
+            const response = await fetch("/api/Clients", {
+                method: "GET",
+                headers: { "Accept": "application/json" }
+            });
+            if (response.ok === true) {
+                const clients = await response.json();
+                clients.forEach(p => {
+                    var option = document.createElement("option");
+                    option.text = p.user.email;
+                    option.value = parseInt(p.Id);
+                    selectList.appendChild(option)
+                });
+            }
+        }
+
+        async function CreateEmployeeList() {
+            var selectList = policyForm.Employee;
+            const response = await fetch("/api/Employees", {
+                method: "GET",
+                headers: { "Accept": "application/json" }
+            });
+            if (response.ok === true) {
+                const employees = await response.json();
+                employees.forEach(p => {
+                    var option = document.createElement("option");
+                    option.text = p.user.email;
+                    option.value = parseInt(p.Id);
+                    selectList.appendChild(option)
+                });
+            }
+        }
+
+        // Получение всех policy
+        async function GetPolicys() {
+            // отправляет запрос и получаем ответ
+            const response = await fetch("/api/Policys", {
+                method: "GET",
+                headers: { "Accept": "application/json" }
+            });
+            if (response.ok === true) {
+                // получаем данные
+                const policys = await response.json();
+                let rows = document.querySelector("tbody");
+                policys.forEach(e => {
+                    // добавляем полученные элементы в таблицу
+                    rows.append(row(e));
+                });
+            }
+        }
+
+        //получение одного полиса
+        async function GetPolicy(id) {
+            const response = await fetch("/api/Policys/" + id, {
+                method: "GET",
+                headers: { "Accept": "application/json" }
+            });
+            if (response.ok === true) {
+                const policy = await response.json();
+                const form = document.forms["policyForm"];
+                form.elements["id"].value = policy.id;
+                form.elements["PolicyType"].value = policy.PolicyTypeId;
+                form.elements["Client"].value = policy.ClientId;
+                form.elements["Employee"].value = policy.EmployeeId;
+                console.log(policy.PolicyTypeId);
+                console.log(policy.ClientId);
+                console.log(policy.EmployeeId);
+            }
+        }
+
+        //Добавление полиса
+        async function CreatePolicy(polictType, clientId, employeeId) {
+            console.log(policy.PolicyTypeId);
+            console.log(policy.ClientId);
+            console.log(policy.EmployeeId);
+            const response = await fetch("/api/Policys", {
+                method: "POST",
+                headers: { "Accept": "application/json", "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    polictType:parseInt(polictTypeId, 10),
+                    clientId: parseInt(clientId, 10),
+                    employeeId: parseInt( employeeId,10)
+                })
+            });
+            if (response.ok === true) {
+                const policy = await response.json();
+                reset();
+                document.querySelector("tbody").append(row(policy));
+            }
+        }
+
+        //Изменение 
+        async function EditPolicy(polictType, clientId, employeeId) {
+            const response = await fetch("api/Policys", {
+                method: "PUT",
+                headers: { "Accept": "application/json", "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    polictType: parseInt(polictTypeId, 10),
+                    clientId: parseInt(clientId, 10),
+                    employeeId: parseInt(employeeId, 10)
+                })
+            });
+            if (response.ok === true) {
+                reset();
+                document.querySelector("tr[data-rowid='" + policyId + "']").replaceWith(row(policy));
+            }
+        }
+
+        // Удаление пользователя
+        async function DeletePolicy(id) {
+            console.log(id)
+            const response = await fetch("api/Policys/" + id, {
+                method: "DELETE",
+                headers: { "Accept": "application/json" }
+            });
+            if (response.ok === true) {
+                document.querySelector("tr[data-rowid='" + id + "']").remove();
+            }
+        }
+
+        function reset() {
+            const form = document.forms["policyForm"];
+            form.reset();
+            form.elements["id"].value = 0;
+        }
+
+        function row(policy) {
+            console.log(policy)
+            const tr = document.createElement("tr");
+            tr.setAttribute("data-rowid", policy.id);
+
+            const idTd = document.createElement("td");
+            idTd.append(policy.id);
+            tr.append(idTd);
+
+            const policyTd = document.createElement("td");
+            const policyTypeList = policyForm.PolicyType;
+            console.log(policy.policyTypeId);
+            policyTd.append(policyTypeList.options[policy.policyTypeId - 1].text);
+            tr.append(policyTd);
+
+            const clientTd = document.createElement("td");
+            const clientList = policyForm.Client;
+            console.log(policy)
+            clientTd.append(clientList.options[policy.clientId - 1].text);
+            tr.append(clientTd);
+
+            const employeeTd = document.createElement("td")
+            const employeeList = policyForm.Employee;
+            employeeTd.append(employeeList.options[policy.employeeId - 1].text);
+            tr.append(employeeTd)
+            
+            const linksTd = document.createElement("td");
+
+            const editLink = document.createElement("a");
+            editLink.setAttribute("data-id", policy.id);
+            editLink.setAttribute("style", "cursor:pointer;padding:15px;");
+            editLink.append("Change");
+            editLink.addEventListener("click", e => {
+
+                e.preventDefault();
+                GetPolicy(policy.id);
+            });
+            linksTd.append(editLink);
+
+            const removeLink = document.createElement("a");
+            removeLink.setAttribute("data-id", policy.id);
+            removeLink.setAttribute("style", "cursor:pointer;padding:15px;");
+            removeLink.append("Delete");
+            removeLink.addEventListener("click", e => {
+
+                e.preventDefault();
+                DeletePolicy(policy.id);
+            });
+
+            linksTd.append(removeLink);
+            tr.appendChild(linksTd);
+
+            return tr;
+        }
+
+        document.getElementById("reset").click(function (e) {
+
+            e.preventDefault();
+            reset();
+        })
+
+        document.forms["policyForm"].addEventListener("submit", e => {
+            e.preventDefault();
+            const form = document.forms["policyForm"]
+            const id = form.elements["id"].value;
+            const policyType = form.elements["PolicyType"].value;
+            const clientId = form.elements["Client"].value;
+            const employeeId = form.elements["Employee"].value;
+            if (id === 0)
+                CreatePolicy(policyType, clientId, employeeId)
+            else
+                EditPolicy(id, policyType, clientId, employeeId)
+        });
+        async function Start() {
+
+            await CreatePolicyTypeList();
+            await CreateClientList();
+            await CreateEmployeeList();
+            await GetPolicys()
+        }
+
+        Start();
+    </script>
+</body>
+</html>

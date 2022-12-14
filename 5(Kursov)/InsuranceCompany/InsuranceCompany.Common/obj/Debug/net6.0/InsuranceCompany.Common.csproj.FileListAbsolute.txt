@@ -33,3 +33,15 @@ D:\5сем\Курсовая\InsuranceCompany\InsuranceCompany.Common\obj\Debug\n
 D:\5сем\Курсовая\InsuranceCompany\InsuranceCompany.Common\obj\Debug\net6.0\refint\InsuranceCompany.Common.dll
 D:\5сем\Курсовая\InsuranceCompany\InsuranceCompany.Common\obj\Debug\net6.0\InsuranceCompany.Common.pdb
 D:\5сем\Курсовая\InsuranceCompany\InsuranceCompany.Common\obj\Debug\net6.0\ref\InsuranceCompany.Common.dll
+D:\5сем\Курсовая\DataBaseLabs\5(Kursov)\InsuranceCompany\InsuranceCompany.Common\bin\Debug\net6.0\InsuranceCompany.Common.deps.json
+D:\5сем\Курсовая\DataBaseLabs\5(Kursov)\InsuranceCompany\InsuranceCompany.Common\bin\Debug\net6.0\InsuranceCompany.Common.dll
+D:\5сем\Курсовая\DataBaseLabs\5(Kursov)\InsuranceCompany\InsuranceCompany.Common\bin\Debug\net6.0\InsuranceCompany.Common.pdb
+D:\5сем\Курсовая\DataBaseLabs\5(Kursov)\InsuranceCompany\InsuranceCompany.Common\obj\Debug\net6.0\InsuranceCompany.Common.csproj.AssemblyReference.cache
+D:\5сем\Курсовая\DataBaseLabs\5(Kursov)\InsuranceCompany\InsuranceCompany.Common\obj\Debug\net6.0\InsuranceCompany.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\5сем\Курсовая\DataBaseLabs\5(Kursov)\InsuranceCompany\InsuranceCompany.Common\obj\Debug\net6.0\InsuranceCompany.Common.AssemblyInfoInputs.cache
+D:\5сем\Курсовая\DataBaseLabs\5(Kursov)\InsuranceCompany\InsuranceCompany.Common\obj\Debug\net6.0\InsuranceCompany.Common.AssemblyInfo.cs
+D:\5сем\Курсовая\DataBaseLabs\5(Kursov)\InsuranceCompany\InsuranceCompany.Common\obj\Debug\net6.0\InsuranceCompany.Common.csproj.CoreCompileInputs.cache
+D:\5сем\Курсовая\DataBaseLabs\5(Kursov)\InsuranceCompany\InsuranceCompany.Common\obj\Debug\net6.0\InsuranceCompany.Common.dll
+D:\5сем\Курсовая\DataBaseLabs\5(Kursov)\InsuranceCompany\InsuranceCompany.Common\obj\Debug\net6.0\refint\InsuranceCompany.Common.dll
+D:\5сем\Курсовая\DataBaseLabs\5(Kursov)\InsuranceCompany\InsuranceCompany.Common\obj\Debug\net6.0\InsuranceCompany.Common.pdb
+D:\5сем\Курсовая\DataBaseLabs\5(Kursov)\InsuranceCompany\InsuranceCompany.Common\obj\Debug\net6.0\ref\InsuranceCompany.Common.dll

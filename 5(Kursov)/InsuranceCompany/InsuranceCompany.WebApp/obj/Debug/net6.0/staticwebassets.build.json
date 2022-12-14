@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0xCUjnAXG1L3FXNa6nIsecdSpcd+/pL1Vh3YnU45+Tw=",
+  "Hash": "8Q/eCQNx85xND1wl1/p3ooLaJLAEMtGXYNJzx2BfLTE=",
   "Source": "InsuranceCompany.WebApp",
   "BasePath": "_content/InsuranceCompany.WebApp",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "InsuranceCompany.WebApp\\wwwroot",
       "Source": "InsuranceCompany.WebApp",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "Pattern": "**"
     }
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "C:\\Users\\Ksesha\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.10\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\InsuranceCompany.WebApp.styles.css",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\InsuranceCompany.WebApp.styles.css",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "InsuranceCompany.WebApp.styles.css",
       "AssetKind": "All",
@@ -1051,13 +1051,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\InsuranceCompany.WebApp.styles.css"
+      "OriginalItemSpec": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\obj\\Debug\\net6.0\\scopedcss\\bundle\\InsuranceCompany.WebApp.styles.css"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\InsuranceCompany.WebApp.bundle.scp.css",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\InsuranceCompany.WebApp.bundle.scp.css",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "InsuranceCompany.WebApp.bundle.scp.css",
       "AssetKind": "All",
@@ -1068,13 +1068,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\InsuranceCompany.WebApp.bundle.scp.css"
+      "OriginalItemSpec": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\InsuranceCompany.WebApp.bundle.scp.css"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\css\\bootstrap-datepicker.css",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\css\\bootstrap-datepicker.css",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/css/bootstrap-datepicker.css",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\css\\bootstrap-datepicker.css"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\css\\bootstrap-datepicker.css.map",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\css\\bootstrap-datepicker.css.map",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/css/bootstrap-datepicker.css.map",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\css\\bootstrap-datepicker.css.map"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\css\\bootstrap-datepicker.min.css",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\css\\bootstrap-datepicker.min.css",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/css/bootstrap-datepicker.min.css",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\css\\bootstrap-datepicker.min.css"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\css\\bootstrap-datepicker.standalone.css",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\css\\bootstrap-datepicker.standalone.css",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/css/bootstrap-datepicker.standalone.css",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\css\\bootstrap-datepicker.standalone.css"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\css\\bootstrap-datepicker.standalone.css.map",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\css\\bootstrap-datepicker.standalone.css.map",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/css/bootstrap-datepicker.standalone.css.map",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\css\\bootstrap-datepicker.standalone.css.map"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\css\\bootstrap-datepicker.standalone.min.css",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\css\\bootstrap-datepicker.standalone.min.css",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/css/bootstrap-datepicker.standalone.min.css",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\css\\bootstrap-datepicker.standalone.min.css"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\css\\bootstrap-datepicker3.css",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\css\\bootstrap-datepicker3.css",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/css/bootstrap-datepicker3.css",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\css\\bootstrap-datepicker3.css"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\css\\bootstrap-datepicker3.css.map",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\css\\bootstrap-datepicker3.css.map",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/css/bootstrap-datepicker3.css.map",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\css\\bootstrap-datepicker3.css.map"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\css\\bootstrap-datepicker3.min.css",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\css\\bootstrap-datepicker3.min.css",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/css/bootstrap-datepicker3.min.css",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\css\\bootstrap-datepicker3.min.css"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\css\\bootstrap-datepicker3.standalone.css",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\css\\bootstrap-datepicker3.standalone.css",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/css/bootstrap-datepicker3.standalone.css",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\css\\bootstrap-datepicker3.standalone.css"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\css\\bootstrap-datepicker3.standalone.css.map",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\css\\bootstrap-datepicker3.standalone.css.map",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/css/bootstrap-datepicker3.standalone.css.map",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\css\\bootstrap-datepicker3.standalone.css.map"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\css\\bootstrap-datepicker3.standalone.min.css",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\css\\bootstrap-datepicker3.standalone.min.css",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/css/bootstrap-datepicker3.standalone.min.css",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\css\\bootstrap-datepicker3.standalone.min.css"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\js\\bootstrap-datepicker.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\js\\bootstrap-datepicker.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/js/bootstrap-datepicker.js",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\js\\bootstrap-datepicker.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\js\\bootstrap-datepicker.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\js\\bootstrap-datepicker.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/js/bootstrap-datepicker.min.js",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\js\\bootstrap-datepicker.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.ar.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.ar.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.ar.min.js",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.ar.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.ar-tn.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.ar-tn.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.ar-tn.min.js",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.ar-tn.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.az.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.az.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.az.min.js",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.az.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.bg.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.bg.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.bg.min.js",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.bg.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.bm.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.bm.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.bm.min.js",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.bm.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.bn.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.bn.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.bn.min.js",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.bn.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.br.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.br.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.br.min.js",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.br.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.bs.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.bs.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.bs.min.js",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.bs.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.ca.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.ca.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.ca.min.js",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.ca.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.cs.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.cs.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.cs.min.js",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.cs.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.cy.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.cy.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.cy.min.js",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.cy.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.da.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.da.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.da.min.js",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.da.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.de.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.de.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.de.min.js",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.de.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.el.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.el.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.el.min.js",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.el.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.en-AU.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.en-AU.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.en-AU.min.js",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.en-AU.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.en-CA.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.en-CA.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.en-CA.min.js",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.en-CA.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.en-GB.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.en-GB.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.en-GB.min.js",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.en-GB.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.en-IE.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.en-IE.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.en-IE.min.js",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.en-IE.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.en-NZ.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.en-NZ.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.en-NZ.min.js",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.en-NZ.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.en-ZA.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.en-ZA.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.en-ZA.min.js",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.en-ZA.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.eo.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.eo.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.eo.min.js",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.eo.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.es.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.es.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.es.min.js",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.es.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.et.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.et.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.et.min.js",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.et.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.eu.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.eu.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.eu.min.js",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.eu.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.fa.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.fa.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.fa.min.js",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.fa.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.fi.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.fi.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.fi.min.js",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.fi.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.fo.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.fo.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.fo.min.js",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.fo.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.fr.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.fr.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.fr.min.js",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.fr.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.fr-CH.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.fr-CH.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.fr-CH.min.js",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.fr-CH.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.gl.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.gl.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.gl.min.js",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.gl.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.he.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.he.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.he.min.js",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.he.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.hi.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.hi.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.hi.min.js",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.hi.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.hr.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.hr.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.hr.min.js",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.hr.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.hu.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.hu.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.hu.min.js",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.hu.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.hy.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.hy.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.hy.min.js",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.hy.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.id.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.id.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.id.min.js",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.id.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.is.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.is.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.is.min.js",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.is.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.it.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.it.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.it.min.js",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.it.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.it-CH.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.it-CH.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.it-CH.min.js",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.it-CH.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.ja.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.ja.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.ja.min.js",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.ja.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.ka.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.ka.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.ka.min.js",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.ka.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.kh.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.kh.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.kh.min.js",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.kh.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.kk.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.kk.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.kk.min.js",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.kk.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.km.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.km.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.km.min.js",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.km.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.ko.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.ko.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.ko.min.js",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.ko.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.kr.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.kr.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.kr.min.js",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.kr.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.lt.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.lt.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.lt.min.js",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.lt.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.lv.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.lv.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.lv.min.js",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.lv.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.me.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.me.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.me.min.js",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.me.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.mk.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.mk.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.mk.min.js",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.mk.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.mn.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.mn.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.mn.min.js",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.mn.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.ms.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.ms.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.ms.min.js",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.ms.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.nl.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.nl.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.nl.min.js",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.nl.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.nl-BE.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.nl-BE.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.nl-BE.min.js",
       "AssetKind": "All",
@@ -2227,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.nl-BE.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.no.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.no.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.no.min.js",
       "AssetKind": "All",
@@ -2244,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.no.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.oc.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.oc.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.oc.min.js",
       "AssetKind": "All",
@@ -2261,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.oc.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.pl.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.pl.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.pl.min.js",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.pl.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.pt.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.pt.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.pt.min.js",
       "AssetKind": "All",
@@ -2295,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.pt.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.pt-BR.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.pt-BR.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.pt-BR.min.js",
       "AssetKind": "All",
@@ -2312,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.pt-BR.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.ro.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.ro.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.ro.min.js",
       "AssetKind": "All",
@@ -2329,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.ro.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.rs.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.rs.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.rs.min.js",
       "AssetKind": "All",
@@ -2346,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.rs.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.rs-latin.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.rs-latin.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.rs-latin.min.js",
       "AssetKind": "All",
@@ -2363,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.rs-latin.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.ru.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.ru.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.ru.min.js",
       "AssetKind": "All",
@@ -2380,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.ru.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.si.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.si.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.si.min.js",
       "AssetKind": "All",
@@ -2397,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.si.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.sk.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.sk.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.sk.min.js",
       "AssetKind": "All",
@@ -2414,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.sk.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.sl.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.sl.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.sl.min.js",
       "AssetKind": "All",
@@ -2431,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.sl.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.sq.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.sq.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.sq.min.js",
       "AssetKind": "All",
@@ -2448,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.sq.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.sr.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.sr.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.sr.min.js",
       "AssetKind": "All",
@@ -2465,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.sr.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.sr-latin.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.sr-latin.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.sr-latin.min.js",
       "AssetKind": "All",
@@ -2482,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.sr-latin.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.sv.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.sv.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.sv.min.js",
       "AssetKind": "All",
@@ -2499,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.sv.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.sw.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.sw.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.sw.min.js",
       "AssetKind": "All",
@@ -2516,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.sw.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.ta.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.ta.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.ta.min.js",
       "AssetKind": "All",
@@ -2533,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.ta.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.tg.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.tg.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.tg.min.js",
       "AssetKind": "All",
@@ -2550,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.tg.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.th.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.th.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.th.min.js",
       "AssetKind": "All",
@@ -2567,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.th.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.tk.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.tk.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.tk.min.js",
       "AssetKind": "All",
@@ -2584,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.tk.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.tr.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.tr.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.tr.min.js",
       "AssetKind": "All",
@@ -2601,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.tr.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.uk.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.uk.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.uk.min.js",
       "AssetKind": "All",
@@ -2618,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.uk.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.uz-cyrl.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.uz-cyrl.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.uz-cyrl.min.js",
       "AssetKind": "All",
@@ -2635,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.uz-cyrl.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.uz-latn.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.uz-latn.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.uz-latn.min.js",
       "AssetKind": "All",
@@ -2652,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.uz-latn.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.vi.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.vi.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.vi.min.js",
       "AssetKind": "All",
@@ -2669,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.vi.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.zh-CN.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.zh-CN.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.zh-CN.min.js",
       "AssetKind": "All",
@@ -2686,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.zh-CN.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.zh-TW.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.zh-TW.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker.zh-TW.min.js",
       "AssetKind": "All",
@@ -2703,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker.zh-TW.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker-en-CA.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker-en-CA.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "bootstrap-datepicker/locales/bootstrap-datepicker-en-CA.min.js",
       "AssetKind": "All",
@@ -2720,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap-datepicker\\locales\\bootstrap-datepicker-en-CA.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\css\\site.css",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\css\\site.css",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -2737,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\favicon.ico",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\favicon.ico",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -2754,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\js\\site.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\js\\site.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -2771,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -2788,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -2805,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -2822,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -2839,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -2856,10 +2856,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -2873,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -2890,10 +2890,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -2907,10 +2907,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -2924,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -2941,10 +2941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -2958,10 +2958,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -2975,10 +2975,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -2992,10 +2992,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -3009,10 +3009,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -3026,10 +3026,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -3043,10 +3043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -3060,10 +3060,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -3077,10 +3077,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -3094,10 +3094,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -3111,10 +3111,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -3128,10 +3128,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -3145,10 +3145,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -3162,10 +3162,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -3179,10 +3179,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -3196,10 +3196,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -3213,10 +3213,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -3230,10 +3230,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -3247,10 +3247,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -3264,10 +3264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -3281,10 +3281,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -3298,10 +3298,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -3315,10 +3315,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -3332,10 +3332,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -3349,10 +3349,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -3366,10 +3366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -3383,10 +3383,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -3400,10 +3400,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -3417,10 +3417,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -3434,10 +3434,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -3451,10 +3451,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -3468,10 +3468,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -3485,10 +3485,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -3502,10 +3502,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -3519,10 +3519,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -3536,10 +3536,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -3553,10 +3553,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -3570,10 +3570,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -3587,10 +3587,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -3604,10 +3604,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -3621,10 +3621,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -3638,10 +3638,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -3655,10 +3655,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -3672,10 +3672,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -3689,10 +3689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -3706,10 +3706,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -3723,10 +3723,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "InsuranceCompany.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\5сем\\Курсовая\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
+      "ContentRoot": "D:\\5сем\\Курсовая\\DataBaseLabs\\5(Kursov)\\InsuranceCompany\\InsuranceCompany.WebApp\\wwwroot\\",
       "BasePath": "_content/InsuranceCompany.WebApp",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

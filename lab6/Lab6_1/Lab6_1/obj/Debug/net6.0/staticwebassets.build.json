@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "J+V2vOTEXybcYfBRXKM1HbF8JxpzF6xOEmAQefT8510=",
+  "Source": "Lab6_1",
+  "BasePath": "_content/Lab6_1",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Lab6_1\\wwwroot",
+      "Source": "Lab6_1",
+      "ContentRoot": "D:\\5сем\\Курсовая\\lab6\\Lab6_1\\Lab6_1\\wwwroot\\",
+      "BasePath": "_content/Lab6_1",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\5сем\\Курсовая\\lab6\\Lab6_1\\Lab6_1\\wwwroot\\index.html",
+      "SourceId": "Lab6_1",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\5сем\\Курсовая\\lab6\\Lab6_1\\Lab6_1\\wwwroot\\",
+      "BasePath": "_content/Lab6_1",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}
