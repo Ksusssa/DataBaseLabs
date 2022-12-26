@@ -1,0 +1,73 @@
+﻿@page "/employee/update/{id: int}"
+@using BlazorInsurComp.Services
+@using Lab6.WebApplication.Models
+@using Lab6.WebApplication.Models.Enums
+@inject EmployeeService EmployeeService
+@inject NavigationManager NavigationManager
+
+<PageTitle>Employee updating</PageTitle>
+<AuthorizeView>
+    <Authorized Context="Update">
+        @if (employee != null)
+        {
+            <h1>Employee update</h1>
+            <EditForm EditContext="editContext">
+                <DataAnnotationsValidator/>
+                <ValidationSummary/>
+
+                <label for="email">Email</label>
+                <InputText id="email" @bind-Value="employee.User.Email"/><br/>
+
+                <label for="typeOfPost">TypeOfPost</label>
+                <InputSelect id="typeOfPost" @bind-Value="employee.TypeOfPost">
+                    @foreach (var post in Enum.GetValues(typeof(PostType)))
+                    {
+                        <option value="@employee.TypeOfPost">@employee.TypeOfPost</option>
+                    }
+                </InputSelect><br />
+
+                <label for="experience">Experience</label>
+                <InputNumber id="experience" @bind-Value="employee.Experience"/><br/>
+
+                <button type="submit" @onclick="EmployeeUpdate">Update</button>
+            </EditForm>
+        }
+        else
+        {
+            <h1>Employee does exit</h1>
+        }
+    </Authorized>
+    <NotAuthorized>
+        <h1>Access denied</h1>
+    </NotAuthorized>
+</AuthorizeView>
+
+@functions {
+    EditContext editContext;
+
+    [Parameter]
+    public int Id { get; set; }
+    private Employee? employee;
+
+    protected override void OnInitialized()
+    {
+        employee = EmployeeService.Get(Id);
+        editContext = new EditContext(employee);
+    }
+
+    private void EmployeeUpdate()
+    {
+        if (editContext.Validate())
+        {
+            EmployeeService.Update(employee);
+            var message = "Employee was successfully update";
+            NavigationManager.NavigateTo("$/employees/successpage/{message}");
+        }
+    }
+
+    private void ToEmployeeList()
+    {
+        NavigationManager.NavigateTo("/employees");
+    }
+}
+

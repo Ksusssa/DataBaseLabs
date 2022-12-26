@@ -1,0 +1,90 @@
+﻿@page "/policyTypes"
+@using BlazorInsurComp.Services
+@using Lab6.WebApplication.Models
+@using Microsoft.AspNetCore.Identity;
+@inject PolicyTypeService PolicyTypeService
+@inject NavigationManager NavigationManager
+
+<PageTitle>Policy Types</PageTitle>
+<AuthorizeView>
+    <Authorized>
+        <h1>Policy Types</h1>
+
+        @if (policyTypes == null)
+        {
+            <p><em>Loading...</em></p>
+        }
+        else
+        {
+            <button @onclick="Create">Add new policy type</button>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>Condition</th>
+                        <th>Risks</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var policyType in policyTypes)
+                    {
+                        <tr>
+                            <td>@policyType.Name</td>
+                            <td>@policyType.Description</td>
+                            <td>@policyType.Condition</td>
+                            <td>@(GetRisksName(risks))</td>
+                            <td><button onclick="@(() => Update((int)policyType.Id))">Update</button></td>
+                            <td><button onclick="@(() => Delete((int)policyType.Id))">Delete</button></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </Authorized>
+    <NotAuthorized>
+        <h1>Access denied</h1>
+    </NotAuthorized>
+</AuthorizeView>
+
+@code{
+    private List<PolicyType>? policyTypes;
+    private List<Risk>? risks;
+
+    protected override async Task OnInitializedAsync()
+    {
+        policyTypes = await PolicyTypeService.GetAll();
+    }
+
+    private void Delete(int id)
+    {
+        var policyType = PolicyTypeService.Delete(id);
+        var message = $"PolicyType {policyType.Name} has deleted";
+        NavigationManager.NavigateTo($"/policyTypes/successpage/{message}");
+    }
+
+    private void Update(int id)
+    {
+        NavigationManager.NavigateTo("/policyType/update/" + id);
+    }
+
+    private void Create()
+    {
+        NavigationManager.NavigateTo("/policyType/create");
+    }
+
+    private string GetRisksName(List<Risk>? risks)
+    {
+        string NameRisks = "";
+        foreach(var risk in risks)
+        {
+            NameRisks += risk.Name;
+        }
+        return NameRisks;
+    }
+}
+
+
+

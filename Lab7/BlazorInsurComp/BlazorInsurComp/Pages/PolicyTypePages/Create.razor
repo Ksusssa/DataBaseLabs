@@ -1,0 +1,76 @@
+﻿@page "/policyType/create/"
+@using BlazorInsurComp.Services
+@using Lab6.WebApplication.Models
+@using Microsoft.AspNetCore.Components.Forms
+@inject NavigationManager NavigationManager
+@inject PolicyTypeService PolicyTypeService
+@inject RiskService RiskService
+
+<PageTitle>PolicyType creating</PageTitle>
+<AuthorizeView>
+    <Authorized Context = "Create">
+        <h1>PolicyType create</h1>
+        <EditForm EditContext = "editContext">
+            <DataAnnotationsValidator />
+            <ValidationSummary/>
+
+            <label for="name">Name</label>
+            <InputText id="name" @bind-Value ="policyType.Name" DisplayName = "Name"/> <br/>
+
+            <label for="description">Description</label>
+            <InputText id="description" @bind-Value ="policyType.Description" DisplayName = "Description"/> <br/>
+            
+            <label for="condition">Condition</label>
+            <InputText id="condition" @bind-Value ="policyType.Condition" DisplayName = "Condition"/> <br/>
+
+            <label for="risk">Risk</label> 
+            <InputSelect id="risk" @bind-Value = "policyType.Risks">
+                @foreach(var risk in risks)
+                {
+                    <option value="@risk.Id">@risk.Name</option>
+                }
+            </InputSelect> <br/>
+
+            <button type="submit" @onclick="PolicyTypeCreate">Create</button>
+        </EditForm>
+    </Authorized>
+    <NotAuthorized>
+        <h1>Access denied</h1>
+    </NotAuthorized>
+</AuthorizeView>
+
+@functions{
+
+    EditContext editContext;
+
+    private List<Risk>? risks;
+
+    private PolicyType policyType { get; set; } = new PolicyType
+        {
+            Name = "PolicyTypeName",
+            Description = "Description",
+            Condition = "Condition",
+            Risks = new List<Risk>()
+        };
+    protected async override Task OnInitializedAsync()
+    {
+        risks = await RiskService.GetAll();
+        editContext = new EditContext(policyType);
+    }
+
+    private void PolicyTypeCreate()
+    {
+        if(editContext.Validate())
+        {
+            PolicyTypeService.Create(policyType);
+            string message = "PolicyType was successfully created";
+            NavigationManager.NavigateTo($"/policyTypes/successpage/{message}");
+        }
+    }
+    private void ToTypePolicyList()
+    {
+        NavigationManager.NavigateTo("/policyTypes");
+    }
+}
+
+

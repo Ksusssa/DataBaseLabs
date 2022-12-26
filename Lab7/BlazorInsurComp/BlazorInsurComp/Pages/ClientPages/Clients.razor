@@ -1,0 +1,74 @@
+﻿@page "/clients"
+@using BlazorInsurComp.Services
+@using BlazorInsurComp.Data
+@using Lab6.WebApplication.Models
+@inject ClientService ClientService
+@inject NavigationManager NavigationManager
+
+<AuthorizeView>
+    <Authorized>
+        <PageTitle>Clients</PageTitle>
+        <h1>Clients</h1>
+        
+        @if(clients == null)
+        {
+            <p><em>Loading...</em></p>
+        }
+        else{
+            <button @onclick = "Create">Add new client</button>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Email</th>
+                        <th>BornDate</th>
+                        <th>Phone</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var client in clients)
+                    {
+                        <tr>
+                            <td>@client.User.Email</td>
+                            <td>@client.BornDate</td>
+                            <td>@client.Phone</td>
+                            <td><button onclick="@(()=>
+                                Update((int)client.Id))">Update</button></td>
+                            <td><button onclick="@(() =>
+                                Delete((int)(client.Id)))">Delete</button></td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </Authorized>
+    <NotAuthorized>
+        <h1>Acess denied</h1>
+    </NotAuthorized>
+</AuthorizeView>
+
+@code{
+    private List<Client>? clients;
+
+    protected override async Task OnInitializedAsync(){
+        clients = await ClientService.GetAll();
+    }
+
+    private void Delete(int id)
+    {
+        var client = ClientService.Delete(id);
+        var message = $"Client {client.User.Email} has deleted";
+        NavigationManager.NavigateTo($"/clients/successpage/{message}");
+    }
+    private void Update(int id)
+    {
+        NavigationManager.NavigateTo("/client/update" + id);
+    }
+
+    private void Create()
+    {
+        NavigationManager.NavigateTo("/client/create");
+    }
+
+}

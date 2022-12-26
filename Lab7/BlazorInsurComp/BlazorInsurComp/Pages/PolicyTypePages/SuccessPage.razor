@@ -1,0 +1,19 @@
+﻿@page "/policyTypes/successpage/{message}" 
+@inject NavigationManager NavigationManager
+
+<PageTitle>Success page</PageTitle>
+
+<h1>@Message</h1>
+
+<button @onclick="ToPolicyTypeList">Back</button>
+@functions {
+    [Parameter]
+    public string Message { get; set; }
+
+
+    private void ToPolicyTypeList()
+    {
+        NavigationManager.NavigateTo("/policyTypes");
+    }
+}
+

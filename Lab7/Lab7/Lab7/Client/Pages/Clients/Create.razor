@@ -1,0 +1,69 @@
+﻿@page "/clients/create/"
+
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+@using Lab6.WebApplication.Models
+
+<PageTitle>Client creating</PageTitle>
+<h1>Client create</h1>
+<EditForm EditContext="editContext">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-control">
+        <label class="form-label" for="Email">Email</label>
+        <InputText class="input-group" id="Email" @bind-Value="client.User.Email" /><br />
+    </div>
+
+    <div class="form-control">
+        <label class="form-label" for="Adress">Adress</label>
+        <InputText class="input-group" id="Adress" @bind-Value="client.Address" /><br />
+    </div>
+
+    <div class="form-control">
+        <label class="form-label" for="Phone">Phone</label>
+        <InputText class="input-group" id="Phone" @bind-Value="client.Phone" /><br />
+    </div>
+
+    <div class="form-control">
+        <label class="form-label" for="Passport">Passport</label>
+        <InputText class="input-group" id="Passport" @bind-Value="client.Passport" /><br />
+    </div>
+
+    <button type="submit" @onclick="ClientCreate">Create</button>
+</EditForm>
+
+@functions
+{
+    private EditContext editContext;
+    private Client client { get; set; } = new Client
+        {
+            User = new User { Email = "email@gmail.com" },
+            Address = "adres",
+            Phone = "785838",
+            Passport = "LB23231"
+        };
+
+    protected async override Task OnInitializedAsync()
+    {
+        editContext = new EditContext(client);
+    }
+
+    private async Task ClientCreate()
+    {
+        if (editContext.Validate())
+        {
+            await Http.PostAsJsonAsync("api/clients/", client);
+            string message = "Client was successfully created";
+            NavigationManager.NavigateTo($"/clients/successpage/{message}");
+        }
+    }
+
+    private void ToClientList()
+    {
+        NavigationManager.NavigateTo("/clients");
+    }
+}
+

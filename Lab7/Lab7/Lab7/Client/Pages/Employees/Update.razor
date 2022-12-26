@@ -1,0 +1,66 @@
+﻿@page "/employees/edit/{id:long}"
+
+@using Lab6.WebApplication.Models.Enums
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+@using Lab6.WebApplication.Models
+
+<PageTitle>Employee creating</PageTitle>
+<h1>Employee create</h1>
+<EditForm EditContext="editContext">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-control">
+        <label class="form-label" for="Email">Email</label>
+        <InputText class="input-group" id="Email" @bind-Value="employee.User.Email" /><br />
+    </div>
+
+    <label for="typeOfPost">TypeOfPost</label>
+    <InputSelect id="typeOfPost" @bind-Value="employee.TypeOfPost">
+        @foreach (var post in Enum.GetValues(typeof(PostType)))
+        {
+            <option value="@post">@post</option>
+        }
+    </InputSelect><br />
+
+    <div class="form-control">
+        <label class="form-label" for="Experience">Experience</label>
+        <InputNumber class="input-group" id="Experience" @bind-Value="employee.Experience" /><br />
+    </div>
+
+    <button type="submit" @onclick="EmployeeEdit">Update</button>
+
+</EditForm>
+
+@functions
+{
+    [Parameter]
+    public long Id { get; set; }
+
+    private Employee? employee{ get; set; }
+    private EditContext? editContext;
+
+    protected async override Task OnInitializedAsync()
+    {
+        employee = await Http.GetFromJsonAsync<Employee>($"api/employees/{Id}");
+        editContext = new EditContext(employee);
+    }
+
+    private async Task EmployeeEdit()
+    {
+        if (editContext.Validate())
+        {
+            await Http.PutAsJsonAsync($"api/employees/{Id}", employee);
+            string message = "Employee was successfully created";
+            NavigationManager.NavigateTo($"/employees/successpage/{message}");
+        }
+    }
+    private void ToClientList()
+    {
+        NavigationManager.NavigateTo("/employees");
+    }
+}
+

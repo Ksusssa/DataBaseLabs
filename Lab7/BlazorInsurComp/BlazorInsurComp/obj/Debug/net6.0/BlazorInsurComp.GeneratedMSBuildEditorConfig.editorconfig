@@ -1,0 +1,132 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BlazorInsurComp
+build_property.RootNamespace = BlazorInsurComp
+build_property.ProjectDir = D:\5сем\Курсовая\Lab7\BlazorInsurComp\BlazorInsurComp\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\5сем\Курсовая\Lab7\BlazorInsurComp\BlazorInsurComp
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/5сем/Курсовая/Lab7/BlazorInsurComp/BlazorInsurComp/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5сем/Курсовая/Lab7/BlazorInsurComp/BlazorInsurComp/Pages/ClientPages/Clients.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50UGFnZXNcQ2xpZW50cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5сем/Курсовая/Lab7/BlazorInsurComp/BlazorInsurComp/Pages/ClientPages/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50UGFnZXNcQ3JlYXRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5сем/Курсовая/Lab7/BlazorInsurComp/BlazorInsurComp/Pages/ClientPages/SuccessPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50UGFnZXNcU3VjY2Vzc1BhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5сем/Курсовая/Lab7/BlazorInsurComp/BlazorInsurComp/Pages/ClientPages/Update.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2xpZW50UGFnZXNcVXBkYXRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5сем/Курсовая/Lab7/BlazorInsurComp/BlazorInsurComp/Pages/Counter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5сем/Курсовая/Lab7/BlazorInsurComp/BlazorInsurComp/Pages/EmployeePages/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVQYWdlc1xDcmVhdGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5сем/Курсовая/Lab7/BlazorInsurComp/BlazorInsurComp/Pages/EmployeePages/Employees.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVQYWdlc1xFbXBsb3llZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5сем/Курсовая/Lab7/BlazorInsurComp/BlazorInsurComp/Pages/EmployeePages/SuccessPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVQYWdlc1xTdWNjZXNzUGFnZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5сем/Курсовая/Lab7/BlazorInsurComp/BlazorInsurComp/Pages/EmployeePages/Update.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVQYWdlc1xVcGRhdGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5сем/Курсовая/Lab7/BlazorInsurComp/BlazorInsurComp/Pages/FetchData.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5сем/Курсовая/Lab7/BlazorInsurComp/BlazorInsurComp/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5сем/Курсовая/Lab7/BlazorInsurComp/BlazorInsurComp/Pages/PolicyPages/Create.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9saWN5UGFnZXNcQ3JlYXRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5сем/Курсовая/Lab7/BlazorInsurComp/BlazorInsurComp/Pages/PolicyPages/Policys.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9saWN5UGFnZXNcUG9saWN5cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5сем/Курсовая/Lab7/BlazorInsurComp/BlazorInsurComp/Pages/PolicyPages/SuccessPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9saWN5UGFnZXNcU3VjY2Vzc1BhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5сем/Курсовая/Lab7/BlazorInsurComp/BlazorInsurComp/Pages/PolicyPages/Update.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9saWN5UGFnZXNcVXBkYXRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5сем/Курсовая/Lab7/BlazorInsurComp/BlazorInsurComp/Pages/PolicyTypePages/PolicyTypes.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9saWN5VHlwZVBhZ2VzXFBvbGljeVR5cGVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5сем/Курсовая/Lab7/BlazorInsurComp/BlazorInsurComp/Pages/PolicyTypePages/SuccessPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9saWN5VHlwZVBhZ2VzXFN1Y2Nlc3NQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5сем/Курсовая/Lab7/BlazorInsurComp/BlazorInsurComp/Pages/PolicyTypePages/Update.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9saWN5VHlwZVBhZ2VzXFVwZGF0ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5сем/Курсовая/Lab7/BlazorInsurComp/BlazorInsurComp/Shared/LoginDisplay.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luRGlzcGxheS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5сем/Курсовая/Lab7/BlazorInsurComp/BlazorInsurComp/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5сем/Курсовая/Lab7/BlazorInsurComp/BlazorInsurComp/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5сем/Курсовая/Lab7/BlazorInsurComp/BlazorInsurComp/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-42xo9xdtv3
+
+[D:/5сем/Курсовая/Lab7/BlazorInsurComp/BlazorInsurComp/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-8tr4kowo4k
+
+[D:/5сем/Курсовая/Lab7/BlazorInsurComp/BlazorInsurComp/Areas/Identity/Pages/Account/LogOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dPdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5сем/Курсовая/Lab7/BlazorInsurComp/BlazorInsurComp/Areas/Identity/Pages/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5сем/Курсовая/Lab7/BlazorInsurComp/BlazorInsurComp/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5сем/Курсовая/Lab7/BlazorInsurComp/BlazorInsurComp/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/5сем/Курсовая/Lab7/BlazorInsurComp/BlazorInsurComp/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,71 @@
+﻿@page "/policyType/updae/{id:int}"
+@using BlazorInsurComp.Services
+@using Lab6.WebApplication.Models
+
+@inject PolicyTypeService PolicyTypeService
+@inject RiskService RiskService
+@inject NavigationManager NavigationManager
+
+<PageTitle>PolicyType creating</PageTitle>
+<AuthorizeView>
+    <Authorized Context="Update">
+        @if(policyType != null)
+        {
+            <h1>PolicyType update</h1>
+            <EditForm EditContext="editContext">
+                <DataAnnotationsValidator />
+                <ValidationSummary />
+
+                <label for="Name">Name</label>
+                <InputText id="name" @bind-Value="policyType.Name" DisplayName="Name" /> <br />
+
+                <label for="Description">Description</label>
+                <InputText id="description" @bind-Value="policyType.Description" DisplayName="Description" /> <br />
+
+                <label for="Condition">Condition</label>
+                <InputText id="condition" @bind-Value="policyType.Condition" DisplayName="Condition" /> <br />
+
+                <label for="risk">Risk</label>
+                <InputSelect id="risk" @bind-Value="policyType.Risks">
+                    @foreach (var risk in risks)
+                    {
+                        <option value="@risk.Id">@risk.Name</option>
+                    }
+                </InputSelect> <br />
+
+                <button type="submit" @onclick="PolicyTypeUpdate">Update</button>
+            </EditForm>
+        }
+        
+    </Authorized>
+    <NotAuthorized>
+        <h1>Access denied</h1>
+    </NotAuthorized>
+</AuthorizeView>
+
+
+@functions{
+    EditContext editContext;
+    private List<Risk> risks;
+
+    [Parameter]
+    public int Id{ get; set; }
+    private PolicyType? policyType;
+
+    private void PolicyTypeUpdate()
+    {
+        if (editContext.Validate())
+        {
+            PolicyTypeService.Update(policyType);
+            string message = "PolicyType was successfully updated";
+            NavigationManager.NavigateTo($"/policyTypes/successpage/{message}");
+        }
+    }
+    private void ToTypePolicyList()
+    {
+        NavigationManager.NavigateTo("/policyTypes");
+    }
+}
+
+
+

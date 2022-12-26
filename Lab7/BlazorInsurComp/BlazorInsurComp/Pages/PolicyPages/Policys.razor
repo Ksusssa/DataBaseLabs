@@ -1,0 +1,81 @@
+﻿@page "/policys"
+@using BlazorInsurComp.Services
+@using BlazorInsurComp.Data
+@using Lab6.WebApplication.Models
+@inject PolicyService PolicyService
+@inject NavigationManager NavigationManager
+
+<AuthorizeView>
+    <Authorized>
+        <PageTitle>Policys</PageTitle>
+        <h1>Policys</h1>
+
+        @if (policys == null)
+        {
+            <p><em>Loading...</em></p>
+        }
+        else
+        {
+            <button @onclick="Create">Add new policy</button>
+            <table>
+                <thead>
+                    <tr>
+                        <th>PolicyType</th>
+                        <th>ClientEmail</th>
+                        <th>EmployeeEmail</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var policy in policys)
+                    {
+                        <tr>
+                            <td>@policy.PolicyType.Name</td>
+                            <td>@policy.Client.User.Email</td>
+                            <td>@policy.Employee.User.Email</td>
+                            <td>
+                                <button onclick="@(()=>
+                                Update((int)policy.Id))">
+                                    Update
+                                </button>
+                            </td>
+                            <td>
+                                <button onclick="@(() =>
+                                Delete((int)(policy.Id)))">
+                                    Delete
+                                </button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </Authorized>
+</AuthorizeView>
+
+@code {
+    private List<Policy>? policys;
+
+    protected override async Task OnInitializedAsync()
+    {
+        policys = await PolicyService.GetAll();
+    }
+
+    private void Delete(int id)
+    {
+        var policy = PolicyService.Delete(id);
+        var message = $"Policy with {policy.PolicyType} has deleted";
+        NavigationManager.NavigateTo($"/policys/successpage/{message}");
+    }
+    private void Update(int id)
+    {
+        NavigationManager.NavigateTo("/policy/update" + id);
+    }
+
+    private void Create()
+    {
+        NavigationManager.NavigateTo("/policy/create");
+    }
+
+}

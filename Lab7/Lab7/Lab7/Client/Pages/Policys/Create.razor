@@ -1,0 +1,84 @@
+﻿@page "/policys/create/"
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+@using Lab6.WebApplication.Models
+
+<PageTitle>Policy creating</PageTitle>
+<h1>Policy create</h1>
+<EditForm EditContext="editContext">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-control">
+        <label class="form-label" for="PolicyType">PolicyType</label>
+        <InputSelect id="PolicyType" @bind-Value="policy.PolicyTypeId">
+            @foreach (var policyType in policyTypes)
+            {
+                <option value="@policyType.Id">@policyType.Name</option>
+            }
+        </InputSelect>
+    </div>
+
+    <div class="form-control">
+        <label class="form-label" for="Client">Client</label>
+        <InputSelect id="Client" @bind-Value="policy.ClientId">
+            @foreach (var client in clients)
+            {
+                <option value="@client.Id">@client.User.Email</option>
+            }
+        </InputSelect>
+    </div>
+
+    <div class="form-control">
+        <label class="form-label" for="Employee">Employee</label>
+        <InputSelect id="Employee" @bind-Value="policy.EmployeeId">
+            @foreach (var employee in employees)
+            {
+                <option value="@employee.Id">@employee.User.Email</option>
+            }
+        </InputSelect>
+    </div>
+
+    <button type="submit" @onclick="PolicyCreate">Create</button>
+</EditForm>
+
+@functions
+{
+    private EditContext editContext;
+    private PolicyType[] policyTypes{ get; set; }
+    private Client[] clients{ get; set; }
+    private Employee[] employees{ get; set; }
+
+    private Policy policy { get; set; } = new Policy
+    {
+        PolicyTypeId = 1,
+        ClientId = 1,
+        EmployeeId = 1
+    };
+
+    protected async override Task OnInitializedAsync()
+    {
+        policyTypes = await Http.GetFromJsonAsync<PolicyType[]>("api/typePolicy/");
+        clients = await Http.GetFromJsonAsync<Client[]>("api/clients/");
+        employees = await Http.GetFromJsonAsync<Employee[]>("api/employees/");
+        editContext = new EditContext(policy);
+    }
+
+    private async Task PolicyCreate()
+    {
+        if (editContext.Validate())
+        {
+            await Http.PostAsJsonAsync("api/policys/", policy);
+            string message = "Policy was successfully created";
+            NavigationManager.NavigateTo($"/policys/successpage/{message}");
+        }
+    }
+
+    private void ToPolicyList()
+    {
+        NavigationManager.NavigateTo("/policys");
+    }
+
+}

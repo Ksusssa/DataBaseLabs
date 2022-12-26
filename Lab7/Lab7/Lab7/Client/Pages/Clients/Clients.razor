@@ -1,0 +1,79 @@
+﻿@page "/clients"
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+@using Lab6.WebApplication.Models
+
+<h3>Clients</h3>
+@if(clients == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <NavLink class="nav-link" href="clients/create/" Match="NavLinkMatch.All">
+        <span class="oi oi-plus" aria-hidden="true"></span> Create
+    </NavLink>
+    
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Email</th>
+                <th>Adress</th>
+                <th>Phone</th>
+                <th>Passport</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            @foreach(var client in clients)
+            {
+                <tr>
+                    <td>@client.User.Email</td>
+                    <td>@client.Address</td>
+                    <td>@client.Phone</td>
+                    <td>@client.Passport</td>
+                    <td>
+                        <NavLink class="nav-link"
+                            href=@{$"clients/edit/{client.Id}"} Match="NavLinkMatch.All" >
+                            <span class="oi oi-pencil" aria-hidden="true"></span>Edit
+                        </NavLink>
+                    </td>
+                    <td>
+                        <button class="btn btn-danger" @onclick="@(()=> Delete(client.Id))">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+
+@code{
+    private Client[]? clients;
+    
+
+    private string nameTemp = "";
+    private int pageSize = 20;
+    private int currentPage = 1;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            clients = await Http.GetFromJsonAsync<Client[]>("api/clients/");
+        }
+        catch(AccessTokenNotAvailableException exception)
+        {
+            exception.Redirect();
+        }
+    }
+
+    private async Task Delete(long id)
+    {
+        await Http.DeleteAsync($"api/clients/{id}");
+        string message = "Client was successfully deleted";
+        NavigationManager.NavigateTo($"/clients/successpage/{message}");
+    }
+}

@@ -1,0 +1,17 @@
+﻿@page "/employees/successpage/{message}"
+@inject NavigationManager NavigationManager
+
+<PageTitle>Success page</PageTitle>
+<h1>@Message</h1>
+
+<button @onclick="ToEmployeesList">Back</button>
+
+@functions {
+    [Parameter]
+    public string Message { get; set; }
+
+    private void ToEmployeesList()
+    {
+        NavigationManager.NavigateTo("/employees");
+    }
+}

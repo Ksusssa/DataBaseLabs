@@ -1,0 +1,12 @@
+D:\5сем\Курсовая\Lab7\Lab7\Lab7\Shared\bin\Debug\net6.0\Lab7.Shared.deps.json
+D:\5сем\Курсовая\Lab7\Lab7\Lab7\Shared\bin\Debug\net6.0\Lab7.Shared.dll
+D:\5сем\Курсовая\Lab7\Lab7\Lab7\Shared\bin\Debug\net6.0\Lab7.Shared.pdb
+D:\5сем\Курсовая\Lab7\Lab7\Lab7\Shared\obj\Debug\net6.0\Lab7.Shared.csproj.AssemblyReference.cache
+D:\5сем\Курсовая\Lab7\Lab7\Lab7\Shared\obj\Debug\net6.0\Lab7.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\5сем\Курсовая\Lab7\Lab7\Lab7\Shared\obj\Debug\net6.0\Lab7.Shared.AssemblyInfoInputs.cache
+D:\5сем\Курсовая\Lab7\Lab7\Lab7\Shared\obj\Debug\net6.0\Lab7.Shared.AssemblyInfo.cs
+D:\5сем\Курсовая\Lab7\Lab7\Lab7\Shared\obj\Debug\net6.0\Lab7.Shared.csproj.CoreCompileInputs.cache
+D:\5сем\Курсовая\Lab7\Lab7\Lab7\Shared\obj\Debug\net6.0\Lab7.Shared.dll
+D:\5сем\Курсовая\Lab7\Lab7\Lab7\Shared\obj\Debug\net6.0\refint\Lab7.Shared.dll
+D:\5сем\Курсовая\Lab7\Lab7\Lab7\Shared\obj\Debug\net6.0\Lab7.Shared.pdb
+D:\5сем\Курсовая\Lab7\Lab7\Lab7\Shared\obj\Debug\net6.0\ref\Lab7.Shared.dll

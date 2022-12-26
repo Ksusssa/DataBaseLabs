@@ -1,0 +1,61 @@
+﻿@page "/client/create/"
+@using BlazorInsurComp.Services
+@using Lab6.WebApplication.Models
+
+@inject NavigationManager NavigationManager
+@inject ClientService ClientService
+
+<PageTitle>Client creating</PageTitle>
+<AuthorizeView>
+    <Authorized Context= "Create">
+        <h1>Client creating</h1>
+        <EditForm EditContext="editContext">
+            <DataAnnotationsValidator/>
+            <ValidationSummary/>
+
+            <label for="name">Email</label>
+            <InputText id="email" @bind-Value="client.User.Email" DisplayName="Email"/><br/>
+
+            <label for="bornDate">BornDate</label>
+            <InputDate id="bornDate" @bind-Value="client.BornDate" DisplayName="BornDate" /><br />
+
+            <label for="phone">Phone</label>
+            <InputText id="pnone" @bind-Value="client.Phone" DisplayName="Phone" /><br />
+
+            <button type="submit" @onclick="ClientCreate">Create</button>
+        </EditForm>
+    </Authorized>
+    <NotAuthorized>
+        <h1>Access denied</h1>
+    </NotAuthorized>
+</AuthorizeView>
+
+
+
+@functions{
+    EditContext editContext;
+
+    private Client client { get; set; } = new Client { User = new User { Email = "email@gmail.com"},
+                                                        BornDate = DateTime.Parse("20.12.2020"),
+                                                        Phone = "790743"};
+    protected override void OnInitialized()
+    {
+        editContext = new EditContext(client);
+    }
+
+    private void ClientCreate()
+    {
+        if(editContext.Validate())
+        {
+            ClientService.Create(client);
+            string message = "Client was successfully created";
+            NavigationManager.NavigateTo($"/clients/successpage/{message}");
+        }
+    }
+
+    private void ToClientList()
+    {
+        NavigationManager.NavigateTo("/clients");
+    }
+}
+

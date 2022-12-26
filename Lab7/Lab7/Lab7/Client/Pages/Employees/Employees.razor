@@ -1,0 +1,76 @@
+﻿@page "/employees"
+
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+@using Lab6.WebApplication.Models
+
+<h3>Employees</h3>
+@if (employees == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <NavLink class="nav-link" href="employees/create/" Match="NavLinkMatch.All">
+        <span class="oi oi-plus" aria-hidden="true"></span> Create
+    </NavLink>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Email</th>
+                <th>TypeOfPost</th>
+                <th>Experience</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var employee in employees)
+            {
+                <tr>
+                    <td>@employee.User.Email</td>
+                    <td>@employee.TypeOfPost</td>
+                    <td>@employee.Experience</td>
+                    <td>
+                        <NavLink class="nav-link"
+                         href=@{$"employees/edit/{employee.Id}"} Match="NavLinkMatch.All">
+                            <span class="oi oi-pencil" aria-hidden="true"></span>Edit
+                        </NavLink>
+                    </td>
+                    <td>
+                        <button class="btn btn-danger" @onclick="@(()=> Delete(employee.Id))">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private Employee[]? employees;
+
+
+    private string nameTemp = "";
+    private int pageSize = 20;
+    private int currentPage = 1;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            employees = await Http.GetFromJsonAsync<Employee[]>("api/employees/");
+        }
+        catch (AccessTokenNotAvailableException exception)
+        {
+            exception.Redirect();
+        }
+    }
+
+    private async Task Delete(long id)
+    {
+        await Http.DeleteAsync($"api/employees/{id}");
+        string message = "Employee was successfully deleted";
+        NavigationManager.NavigateTo($"/employees/successpage/{message}");
+    }
+}

@@ -1,0 +1,73 @@
+﻿@page "/policys"
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+@using Lab6.WebApplication.Models
+
+<h3>Policys</h3>
+@if (policys == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <NavLink class="nav-link" href="policys/create/" Match="NavLinkMatch.All">
+        <span class="oi oi-plus" aria-hidden="true"></span> Create
+    </NavLink>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>PolicyType</th>
+                <th>Client</th>
+                <th>Employee</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(var policy in policys)
+            {
+                <tr>
+                    <td>@policy.PolicyType.Name</td>
+                    <td>@policy.Client.User.Email</td>
+                    <td>@policy.Employee.User.Email</td>
+                    <td>
+                        <NavLink class="nav-link"
+                         href=@{$"policys/edit/{policy.Id}"} Match="NavLinkMatch.All">
+                            <span class="oi oi-pencil" aria-hidden="true"></span>Edit
+                        </NavLink>
+                    </td>
+                    <td>
+                        <button class="btn btn-danger" @onclick="@(()=> Delete(policy.Id))">Delete</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code
+{
+    private Policy[]? policys;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            policys = await Http.GetFromJsonAsync<Policy[]>("api/policys/");
+        }
+        catch (AccessTokenNotAvailableException exception)
+        {
+            exception.Redirect();
+        }
+    }
+
+    private async Task Delete(long id)
+    {
+        await Http.DeleteAsync($"api/policys/{id}");
+        string message = "Policy was successfully deleted";
+        NavigationManager.NavigateTo($"/policys/successpage/{message}");
+    }
+
+}
+

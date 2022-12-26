@@ -1,0 +1,98 @@
+﻿@page "/policy/create/"
+
+@using BlazorInsurComp.Services
+@using Lab6.WebApplication.Models
+@using Lab6.WebApplication.Models.Enums
+
+@inject PolicyService PolicyService
+@inject EmployeeService EmployeeService
+@inject ClientService ClientService
+@inject PolicyTypeService PolicyTypeService
+
+@inject NavigationManager NavigationManager
+
+<PageTitle>Policy creating</PageTitle>
+<AuthorizeView>
+    <Authorized Context="Creating">
+        @if (policy != null)
+        {
+            <h1>Policy update</h1>
+            <EditForm EditContext="editContext">
+                <DataAnnotationsValidator />
+                <ValidationSummary />
+
+                <label for="policyType">PolicyType</label>
+                <InputSelect id="policyType" @bind-Value="policy.PolicyTypeId">
+                    @foreach (var policyType in policyTypes)
+                    {
+                        <option value="@policyType.Id">@policyType.Name</option>
+                    }
+                </InputSelect><br />
+
+                <label for="client">Client</label>
+                <InputSelect id="client" @bind-Value="policy.ClientId">
+                    @foreach (var client in clients)
+                    {
+                        <option value="@client.Id">@client.User.Email</option>
+                    }
+                </InputSelect><br />
+
+                <label for="employee">Employee</label>
+                <InputSelect id="employee" @bind-Value="policy.EmployeeId">
+                    @foreach (var employee in employees)
+                    {
+                        <option value="@employee.Id">@employee.User.Email</option>
+                    }
+                </InputSelect><br />
+
+                <button type="submit" @onclick="PolicyCreate">Create</button>
+            </EditForm>
+        }
+        else
+        {
+            <h1>Policy does not exist</h1>
+        }
+    </Authorized>
+    <NotAuthorized>
+        <h1>Access denied</h1>
+    </NotAuthorized>
+
+</AuthorizeView>
+
+
+@functions {
+    EditContext editContext;
+    private List<Employee> employees;
+    private List<Client> clients;
+    private List<PolicyType> policyTypes;
+
+    [Parameter]
+    public int Id { get; set; }
+    private Policy? policy;
+
+    protected async override Task OnInitializedAsync()
+    {
+        employees = await EmployeeService.GetAll();
+        clients = await ClientService.GetAll();
+        policyTypes = await PolicyTypeService.GetAll();
+        policy = PolicyService.Get(Id);
+        editContext = new EditContext(policy);
+    }
+
+    private void PolicyCreate()
+    {
+        if (editContext.Validate())
+        {
+            PolicyService.Create(policy);
+            var message = "Policy was successfully create";
+            NavigationManager.NavigateTo("$/policys/successpage/{message}");
+        }
+    }
+
+    private void ToPolicyList()
+    {
+        NavigationManager.NavigateTo("/policys");
+    }
+}
+
+

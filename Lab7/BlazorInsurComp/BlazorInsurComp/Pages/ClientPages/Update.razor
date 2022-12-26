@@ -1,0 +1,70 @@
+﻿@page "/client/update/{id: int}"
+@using BlazorInsurComp.Services
+@using Lab6.WebApplication.Models
+@inject ClientService ClientService
+@inject NavigationManager NavigationManager
+
+<PageTitle>Client updating</PageTitle>
+<AuthorizeView>
+    <Authorized Context="Update">
+        @if (client != null)
+        {
+            <h1>Client updating</h1>
+            <EditForm EditContext="editContext">
+                <DataAnnotationsValidator/>
+                <ValidationSummary/>
+
+                <label for="name">Email</label>
+                <InputText id="email" @bind-Value="client.User.Email" DisplayName="Email" /><br />
+
+                <label for="bornDate">BornDate</label>
+                <InputDate id="bornDate" @bind-Value="client.BornDate" DisplayName="BornDate" /><br />
+
+                <label for="phone">Phone</label>
+                <InputText id="pnone" @bind-Value="client.Phone" DisplayName="Phone" /><br />
+
+                <button type="submit" @onclick="ClientUpdate">Update</button>
+
+            </EditForm>
+        }
+        else
+        {
+            <h1>Client does exit</h1>
+        }
+    </Authorized>
+    <NotAuthorized>
+        <h1>Access denied</h1>
+    </NotAuthorized>
+</AuthorizeView>
+
+
+@functions{
+    EditContext editContext;
+
+    [Parameter]
+    public int Id { get; set; }
+    private Client? client;
+
+    protected override void OnInitialized()
+    {
+        client = ClientService.Get(Id);
+        editContext = new EditContext(client);
+    }
+
+    private void ClientUpdate()
+    {
+        if(editContext.Validate())
+        {
+            ClientService.Update(client);
+            var message = "Client was successfully updat";
+            NavigationManager.NavigateTo("$/clients/successpage/{message}");
+        }
+    }
+
+    private void ToClientList()
+    {
+        NavigationManager.NavigateTo("/clients");
+    }
+}
+
+

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O3T+RJJU0HW12tLk/rRqv8UlsdTWjRWVEZsMX6pArhau0x46jq04GqVOI2xL/F1zmtfWBsbNu7AjNuCXPQeCrg==",
+  "dgSpecHash": "xl30cP2mAtyzjX1X+sUJ89tuM+UaFM1aIl1Ausdt0dLauq4+6QfpuIeYbkqzDpZ5DODua7nmGv5OtZ71RcdCSQ==",
   "success": true,
-  "projectFilePath": "D:\\5сем\\Курсовая\\lab6\\Lab6_1\\Lab6_1\\Lab6_1.csproj",
+  "projectFilePath": "D:\\5сем\\Курсовая\\DataBaseLabs\\lab6\\Lab6_1\\Lab6_1\\Lab6_1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ksesha\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Ksesha\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

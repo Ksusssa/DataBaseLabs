@@ -1,0 +1,65 @@
+﻿@page "/clients/edit/{id:long}"
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+@using Lab6.WebApplication.Models
+
+<PageTitle>Client edit</PageTitle>
+<h1>Client edit</h1>
+<EditForm EditContext="editContext">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-control">
+        <label class="form-label" for="Email">Email</label>
+        <InputText class="input-group" id="Email" @bind-Value="client.User.Email" /><br />
+    </div>
+
+    <div class="form-control">
+        <label class="form-label" for="Adress">Adress</label>
+        <InputText class="input-group" id="Adress" @bind-Value="client.Address" /><br />
+    </div>
+
+    <div class="form-control">
+        <label class="form-label" for="Phone">Phone</label>
+        <InputText class="input-group" id="Phone" @bind-Value="client.Phone" /><br />
+    </div>
+
+    <div class="form-control">
+        <label class="form-label" for="Passport">Passport</label>
+        <InputText class="input-group" id="Passport" @bind-Value="client.Passport" /><br />
+    </div>
+
+    <button type="submit" @onclick="ClientEdit">Create</button>
+</EditForm>
+
+
+@functions
+{
+    [Parameter]
+    public long Id{ get; set; }
+
+    private Client? client{ get; set; }
+    private EditContext? editContext;
+
+    protected async override Task OnInitializedAsync()
+    {
+        client = await Http.GetFromJsonAsync<Client>($"api/clients/{Id}");
+        editContext = new EditContext(client);
+    }
+
+    private async Task ClientEdit()
+    {
+        if(editContext.Validate())
+        {
+            await Http.PutAsJsonAsync($"api/clients/{Id}", client);
+            string message = "Client was successfully created";
+            NavigationManager.NavigateTo($"/clients/successpage/{message}");
+        }
+    }
+    private void ToClientList()
+    {
+        NavigationManager.NavigateTo("/clients");
+    }
+}

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\5сем\\Курсовая\\lab6\\Lab6_1\\Lab6_1\\Lab6_1.csproj": {}
+    "D:\\5сем\\Курсовая\\DataBaseLabs\\lab6\\Lab6_1\\Lab6_1\\Lab6_1.csproj": {}
   },
   "projects": {
-    "D:\\5сем\\Курсовая\\lab6\\Lab6_1\\Lab6_1\\Lab6_1.csproj": {
+    "D:\\5сем\\Курсовая\\DataBaseLabs\\lab6\\Lab6_1\\Lab6_1\\Lab6_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\5сем\\Курсовая\\lab6\\Lab6_1\\Lab6_1\\Lab6_1.csproj",
+        "projectUniqueName": "D:\\5сем\\Курсовая\\DataBaseLabs\\lab6\\Lab6_1\\Lab6_1\\Lab6_1.csproj",
         "projectName": "Lab6_1",
-        "projectPath": "D:\\5сем\\Курсовая\\lab6\\Lab6_1\\Lab6_1\\Lab6_1.csproj",
+        "projectPath": "D:\\5сем\\Курсовая\\DataBaseLabs\\lab6\\Lab6_1\\Lab6_1\\Lab6_1.csproj",
         "packagesPath": "C:\\Users\\Ksesha\\.nuget\\packages\\",
-        "outputPath": "D:\\5сем\\Курсовая\\lab6\\Lab6_1\\Lab6_1\\obj\\",
+        "outputPath": "D:\\5сем\\Курсовая\\DataBaseLabs\\lab6\\Lab6_1\\Lab6_1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

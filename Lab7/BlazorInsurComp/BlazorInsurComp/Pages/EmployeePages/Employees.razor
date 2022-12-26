@@ -1,0 +1,85 @@
+﻿@page "/employees"
+@using BlazorInsurComp.Services
+@using BlazorInsurComp.Data
+@using Lab6.WebApplication.Models
+@inject EmployeeService EmployeeService
+@inject NavigationManager NavigationManager
+
+<AuthorizeView>
+    <Authorized>
+        <PageTitle>Employees</PageTitle>
+        <h1>Employees</h1>
+
+        @if (employees == null)
+        {
+            <p><em>Loading...</em></p>
+        }
+        else
+        {
+            <button @onclick="Create">Add new client</button>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Email</th>
+                        <th>TypeOfPost</th>
+                        <th>Experience</th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var employee in employees)
+                    {
+                        <tr>
+                            <td>@employee.User.Email</td>
+                            <td>@employee.TypeOfPost</td>
+                            <td>@employee.Experience</td>
+                            <td>
+                                <button onclick="@(()=>
+                                Update((int)employee.Id))">
+                                    Update
+                                </button>
+                            </td>
+                            <td>
+                                <button onclick="@(() =>
+                                Delete((int)(employee.Id)))">
+                                    Delete
+                                </button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </Authorized>
+    <NotAuthorized>
+        <h1>Acess denied</h1>
+    </NotAuthorized>
+</AuthorizeView>
+
+@code {
+    private List<Employee>? employees;
+
+    protected override async Task OnInitializedAsync()
+    {
+        employees = await EmployeeService.GetAll();
+    }
+
+    private void Delete(int id)
+    {
+        var employee = EmployeeService.Delete(id);
+        var message = $"Employee {employee.User.Email} has deleted";
+        NavigationManager.NavigateTo($"/employees/successpage/{message}");
+    }
+    private void Update(int id)
+    {
+        NavigationManager.NavigateTo("/employee/update" + id);
+    }
+
+    private void Create()
+    {
+        NavigationManager.NavigateTo("/employee/create");
+    }
+
+}
+
